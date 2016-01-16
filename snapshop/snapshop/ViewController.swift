@@ -89,15 +89,12 @@ class ViewController: UIViewController, AVCaptureMetadataOutputObjectsDelegate {
                     highlightViewRect = barCodeObject.bounds
                     
                     detectionString = (metadata as! AVMetadataMachineReadableCodeObject).stringValue
-                    
-                    self.session.stopRunning()
-                    break
+                    print(detectionString)
                 }
                 
             }
         }
         
-        print(detectionString)
         self.highlightView.frame = highlightViewRect
         self.view.bringSubviewToFront(self.highlightView)
         
