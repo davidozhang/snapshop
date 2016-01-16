@@ -1,6 +1,6 @@
 import UIKit
 import AVFoundation
-
+import Firebase
 
 class ViewController: UIViewController, AVCaptureMetadataOutputObjectsDelegate {
     
@@ -9,6 +9,10 @@ class ViewController: UIViewController, AVCaptureMetadataOutputObjectsDelegate {
     var highlightView: UIView = UIView()
     var scannedItems: UIButton = UIButton(type: .Custom)
     var checkout: UIButton = UIButton(type: .Custom)
+    var data: NSDictionary = NSDictionary()
+    
+    let ref = Firebase(url: "https://snapshop.firebaseio.com")
+    
     func showScannedItems() {
         
     }
@@ -16,6 +20,14 @@ class ViewController: UIViewController, AVCaptureMetadataOutputObjectsDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        ref.observeEventType(.Value, withBlock: { snapshot in
+            if (!(snapshot.value is NSNull)) {
+                self.data = snapshot.value as! NSDictionary
+            }
+        }, withCancelBlock: { error in
+            print(error.description)
+        })
+        
         // Select the color you want for the completed scan reticle
         self.highlightView.layer.borderColor = UIColor.greenColor().CGColor
         self.highlightView.layer.borderWidth = 3
@@ -116,7 +128,8 @@ class ViewController: UIViewController, AVCaptureMetadataOutputObjectsDelegate {
                     highlightViewRect = barCodeObject.bounds
                     
                     detectionString = (metadata as! AVMetadataMachineReadableCodeObject).stringValue
-                    print(detectionString)
+                    print (self.data[detectionString])
+                    //print(detectionString)
                 }
                 
             }

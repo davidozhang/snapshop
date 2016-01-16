@@ -14,7 +14,7 @@
 		630FB9D11C4ABBCC00A4BCE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 630FB9CF1C4ABBCC00A4BCE0 /* LaunchScreen.storyboard */; };
 		630FB9DC1C4ABBCD00A4BCE0 /* snapshopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630FB9DB1C4ABBCD00A4BCE0 /* snapshopTests.swift */; };
 		630FB9E71C4ABBCD00A4BCE0 /* snapshopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630FB9E61C4ABBCD00A4BCE0 /* snapshopUITests.swift */; };
-		6364346297718B54BE671028 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D32BDD72F6AE0BA74A535AA3 /* libPods.a */; };
+		A2654263DA0DE6575EEAFB1F /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F06AC74ACFA0552D89CB5E93 /* Pods.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,8 +49,9 @@
 		630FB9E21C4ABBCD00A4BCE0 /* snapshopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = snapshopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		630FB9E61C4ABBCD00A4BCE0 /* snapshopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = snapshopUITests.swift; sourceTree = "<group>"; };
 		630FB9E81C4ABBCD00A4BCE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6394EC001C4AE45F008C0D2A /* Firebase */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Firebase; path = Pods/Firebase; sourceTree = "<group>"; };
 		8D3A7BFC84EDBDE962653F2A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		D32BDD72F6AE0BA74A535AA3 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F06AC74ACFA0552D89CB5E93 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6364346297718B54BE671028 /* libPods.a in Frameworks */,
+				A2654263DA0DE6575EEAFB1F /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,7 +136,8 @@
 		65940695A7BC41B1569D9D9E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D32BDD72F6AE0BA74A535AA3 /* libPods.a */,
+				6394EC001C4AE45F008C0D2A /* Firebase */,
+				F06AC74ACFA0552D89CB5E93 /* Pods.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
