@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		630F88441C4ADC45008BC48D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 630F88431C4ADC45008BC48D /* Assets.xcassets */; };
 		630FB9C71C4ABBCC00A4BCE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630FB9C61C4ABBCC00A4BCE0 /* AppDelegate.swift */; };
 		630FB9C91C4ABBCC00A4BCE0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630FB9C81C4ABBCC00A4BCE0 /* ViewController.swift */; };
 		630FB9CC1C4ABBCC00A4BCE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 630FB9CA1C4ABBCC00A4BCE0 /* Main.storyboard */; };
-		630FB9CE1C4ABBCC00A4BCE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 630FB9CD1C4ABBCC00A4BCE0 /* Assets.xcassets */; };
 		630FB9D11C4ABBCC00A4BCE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 630FB9CF1C4ABBCC00A4BCE0 /* LaunchScreen.storyboard */; };
 		630FB9DC1C4ABBCD00A4BCE0 /* snapshopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630FB9DB1C4ABBCD00A4BCE0 /* snapshopTests.swift */; };
 		630FB9E71C4ABBCD00A4BCE0 /* snapshopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630FB9E61C4ABBCD00A4BCE0 /* snapshopUITests.swift */; };
@@ -36,11 +36,11 @@
 
 /* Begin PBXFileReference section */
 		54ABA5030B9AE45AA7A78297 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		630F88431C4ADC45008BC48D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		630FB9C31C4ABBCC00A4BCE0 /* snapshop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = snapshop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		630FB9C61C4ABBCC00A4BCE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		630FB9C81C4ABBCC00A4BCE0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		630FB9CB1C4ABBCC00A4BCE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		630FB9CD1C4ABBCC00A4BCE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		630FB9D01C4ABBCC00A4BCE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		630FB9D21C4ABBCC00A4BCE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		630FB9D71C4ABBCD00A4BCE0 /* snapshopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = snapshopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -106,8 +106,8 @@
 			children = (
 				630FB9C61C4ABBCC00A4BCE0 /* AppDelegate.swift */,
 				630FB9C81C4ABBCC00A4BCE0 /* ViewController.swift */,
+				630F88431C4ADC45008BC48D /* Assets.xcassets */,
 				630FB9CA1C4ABBCC00A4BCE0 /* Main.storyboard */,
-				630FB9CD1C4ABBCC00A4BCE0 /* Assets.xcassets */,
 				630FB9CF1C4ABBCC00A4BCE0 /* LaunchScreen.storyboard */,
 				630FB9D21C4ABBCC00A4BCE0 /* Info.plist */,
 			);
@@ -260,7 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				630FB9D11C4ABBCC00A4BCE0 /* LaunchScreen.storyboard in Resources */,
-				630FB9CE1C4ABBCC00A4BCE0 /* Assets.xcassets in Resources */,
+				630F88441C4ADC45008BC48D /* Assets.xcassets in Resources */,
 				630FB9CC1C4ABBCC00A4BCE0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

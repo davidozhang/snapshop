@@ -4,9 +4,14 @@ import AVFoundation
 
 class ViewController: UIViewController, AVCaptureMetadataOutputObjectsDelegate {
     
-    let session         : AVCaptureSession = AVCaptureSession()
-    var previewLayer    : AVCaptureVideoPreviewLayer!
-    var highlightView   : UIView = UIView()
+    let session: AVCaptureSession = AVCaptureSession()
+    var previewLayer: AVCaptureVideoPreviewLayer!
+    var highlightView: UIView = UIView()
+    var scannedItems: UIButton = UIButton(type: .Custom)
+    var checkout: UIButton = UIButton(type: .Custom)
+    func showScannedItems() {
+        
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -14,8 +19,6 @@ class ViewController: UIViewController, AVCaptureMetadataOutputObjectsDelegate {
         // Select the color you want for the completed scan reticle
         self.highlightView.layer.borderColor = UIColor.greenColor().CGColor
         self.highlightView.layer.borderWidth = 3
-        
-        // Add it to our controller's view as a subview.
         self.view.addSubview(self.highlightView)
         
         
@@ -50,6 +53,30 @@ class ViewController: UIViewController, AVCaptureMetadataOutputObjectsDelegate {
         previewLayer.frame = self.view.bounds
         previewLayer.videoGravity = AVLayerVideoGravityResizeAspectFill
         self.view.layer.addSublayer(previewLayer)
+        
+        scannedItems.tintColor = UIColor.whiteColor()
+        
+        if let image = UIImage(named: "ShoppingBag.png") {
+            let image = image.imageWithRenderingMode(.AlwaysTemplate)
+            scannedItems.setImage(image, forState: .Normal)
+        }
+        
+        self.scannedItems.frame = CGRectMake(15, 15, 30, 30)
+        
+        // Add it to our controller's view as a subview.
+        self.view.addSubview(self.scannedItems)
+        
+        checkout.tintColor = UIColor.whiteColor()
+        
+        if let image = UIImage(named: "Checkout.png") {
+            let image = image.imageWithRenderingMode(.AlwaysTemplate)
+            checkout.setImage(image, forState: .Normal)
+        }
+        
+        self.checkout.frame = CGRectMake(325, 15, 30, 30)
+        
+        // Add it to our controller's view as a subview.
+        self.view.addSubview(self.checkout)
         
         // Start the scanner. You'll have to end it yourself later.
         session.startRunning()
