@@ -125,7 +125,7 @@
                                         <connections>
                                             <outlet property="label" destination="QBS-JY-b3j" id="bX5-tj-5Z6"/>
                                             <outlet property="price" destination="1SF-ls-NRa" id="bGP-KS-NCj"/>
-                                            <outlet property="quantity" destination="1SF-ls-NRa" id="BoZ-zp-oZ5"/>
+                                            <outlet property="quantity" destination="3JO-Eb-z1U" id="je4-Ja-2nH"/>
                                             <outlet property="title" destination="K2K-z6-qUd" id="5gc-xp-TsM"/>
                                         </connections>
                                     </tableViewCell>
