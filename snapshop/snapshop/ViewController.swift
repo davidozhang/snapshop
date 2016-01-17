@@ -73,6 +73,14 @@ class ViewController: UIViewController, AVCaptureMetadataOutputObjectsDelegate, 
         self.popupController?.presentPopupControllerAnimated(true)
     }
     
+    override func viewDidDisappear(animated: Bool) {
+        self.session.stopRunning()
+    }
+    
+    override func viewDidAppear(animated: Bool) {
+        self.session.startRunning()
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -195,6 +203,5 @@ class ViewController: UIViewController, AVCaptureMetadataOutputObjectsDelegate, 
         
         self.highlightView.frame = highlightViewRect
         self.view.bringSubviewToFront(self.highlightView)
-        
     }
 }

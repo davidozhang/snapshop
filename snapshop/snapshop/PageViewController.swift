@@ -39,10 +39,8 @@ class PageViewController: UIPageViewController, UIPageViewControllerDataSource {
     
     func pageViewController(pageViewController: UIPageViewController, viewControllerBeforeViewController viewController: UIViewController) -> UIViewController? {
         if let _ = viewController as? CheckoutViewController {
-            print("checkout")
             return cameraController;
         } else if let _ = viewController as? ViewController {
-            print("camera")
             return cartController;
         }
         return nil
