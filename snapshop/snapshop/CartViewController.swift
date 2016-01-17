@@ -4,10 +4,11 @@ import ImageLoader
 
 class CartViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     @IBOutlet weak var tableView: UITableView!
-    var arr : Array<Item>?
+    var items : Array<Item> = []
     
     override func viewDidAppear(animated: Bool) {
-        arr = ShoppingCart.instance.getArray()
+        items = ShoppingCart.instance.getArray()
+        self.tableView.reloadData()
     }
     
     override func viewDidLoad() {
@@ -19,7 +20,7 @@ class CartViewController: UIViewController, UITableViewDataSource, UITableViewDe
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("cartCell", forIndexPath: indexPath) as! CartTableViewCell
         
-        let curItem = arr![indexPath.row];
+        let curItem = items[indexPath.row]
     
         cell.title.text = curItem.name
         cell.quantity.text = String(curItem.count)
@@ -32,11 +33,7 @@ class CartViewController: UIViewController, UITableViewDataSource, UITableViewDe
     }
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        if (arr != nil) {
-            return (arr?.count)!
-        } else {
-            return 0
-        }
+        return items.count;
     }
     
     func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
