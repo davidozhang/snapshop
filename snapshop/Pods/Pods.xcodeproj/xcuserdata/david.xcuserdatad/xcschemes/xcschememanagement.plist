@@ -4,6 +4,21 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Braintree-Braintree-Drop-In-Localization.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Braintree-Braintree-UI-Localization.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Braintree.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>CNPPopupController.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -22,7 +37,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>79A3A06D07D82D3E3E75820B4561AF42</key>
+		<key>1429F9CC9B149986CCBBC848A14402E5</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -32,7 +47,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>CE32BB7368F84BEB4F5C057B02781DDA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>D2D17D2E6A8AD8B5A2D1F30A3032805E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E6C233DE9C295B6B9CFC75A5320662FB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F321AC550E340E228D7257F23698DC24</key>
 		<dict>
 			<key>primary</key>
 			<true/>

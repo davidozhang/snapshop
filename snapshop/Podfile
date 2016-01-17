@@ -2,4 +2,5 @@ use_frameworks!
 platform :ios, '8.0'
 pod 'CNPPopupController'
 pod 'Firebase', '>=2.5.0'
+pod 'Braintree', '~> 3.9'
 xcodeproj './snapshop.xcodeproj'
