@@ -14,11 +14,21 @@ class ViewController: UIViewController, AVCaptureMetadataOutputObjectsDelegate, 
     var popupController: CNPPopupController?
     var shoppingCart: ShoppingCart = ShoppingCart()
     var dictionary: NSDictionary = NSDictionary()
+    var pvc : PageViewController?
 
     let ref = Firebase(url: "https://snapshop.firebaseio.com")
     
     func showScannedItems() {
-        
+        pvc?.showCart()
+    }
+    
+    func showCheckout() {
+        pvc?.showCheckout()
+    }
+
+    func addTargetsToButtons() {
+        self.scannedItems.addTarget(self, action: "showScannedItems", forControlEvents: .TouchUpInside)
+        self.checkout.addTarget(self, action: "showCheckout", forControlEvents: .TouchUpInside)
     }
 
     func addItem() {
@@ -65,7 +75,9 @@ class ViewController: UIViewController, AVCaptureMetadataOutputObjectsDelegate, 
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        pvc = self.parentViewController as! PageViewController;
+        
         ref.observeEventType(.Value, withBlock: { snapshot in
             if (!(snapshot.value is NSNull)) {
                 self.data = snapshot.value as! NSDictionary
@@ -137,6 +149,7 @@ class ViewController: UIViewController, AVCaptureMetadataOutputObjectsDelegate, 
         self.view.addSubview(self.checkout)
         
         // Start the scanner. You'll have to end it yourself later.
+        addTargetsToButtons()
         session.startRunning()
         
     }
