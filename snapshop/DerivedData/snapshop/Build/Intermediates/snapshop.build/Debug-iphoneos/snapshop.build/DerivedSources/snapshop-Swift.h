@@ -183,6 +183,14 @@ SWIFT_CLASS("_TtC8snapshop18PageViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * __nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+
+SWIFT_CLASS("_TtC8snapshop22ThankYouViewController")
+@interface ThankYouViewController : UIViewController
+- (void)viewDidLoad;
+- (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
 @class AVCaptureSession;
 @class AVCaptureVideoPreviewLayer;
 @class UIView;

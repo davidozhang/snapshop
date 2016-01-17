@@ -8,16 +8,16 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - !private "StringLiteralType"
-- "ShoppingCart"
-- "NSDictionary"
 - "Double"
+- !private "FloatLiteralType"
+- !private "+="
+- "NSDictionary"
 - !private "=="
 - !private "*"
-- "Array"
 - "Item"
-- !private "FloatLiteralType"
+- "Array"
+- "ShoppingCart"
 - !private "String"
-- !private "+="
 depends-member:
 - !private ["PSs16AbsoluteValuable", "init"]
 - !private ["PSs9AnyObject", "Array"]

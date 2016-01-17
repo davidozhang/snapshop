@@ -119,6 +119,8 @@ SWIFT_CLASS("_TtC8snapshop17CartTableViewCell")
 @interface CartTableViewCell : UITableViewCell
 @property (nonatomic, weak) IBOutlet UILabel * __null_unspecified title;
 @property (nonatomic, weak) IBOutlet UIImageView * __null_unspecified label;
+@property (nonatomic, weak) IBOutlet UILabel * __null_unspecified price;
+@property (nonatomic, weak) IBOutlet UILabel * __null_unspecified quantity;
 - (void)awakeFromNib;
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated;
 - (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * __nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER;
@@ -179,6 +181,14 @@ SWIFT_CLASS("_TtC8snapshop18PageViewController")
 - (UIViewController * __nullable)pageViewController:(UIPageViewController * __nonnull)pageViewController viewControllerBeforeViewController:(UIViewController * __nonnull)viewController;
 - (nonnull instancetype)initWithTransitionStyle:(UIPageViewControllerTransitionStyle)style navigationOrientation:(UIPageViewControllerNavigationOrientation)navigationOrientation options:(NSDictionary<NSString *, id> * __nullable)options OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * __nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC8snapshop22ThankYouViewController")
+@interface ThankYouViewController : UIViewController
+- (void)viewDidLoad;
+- (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
 @class AVCaptureSession;

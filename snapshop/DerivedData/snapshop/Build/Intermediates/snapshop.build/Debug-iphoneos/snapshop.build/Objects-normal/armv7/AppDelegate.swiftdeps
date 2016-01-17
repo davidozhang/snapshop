@@ -6,23 +6,23 @@ provides-nominal:
 provides-member:
 - ["C8snapshop11AppDelegate", ""]
 provides-dynamic-lookup:
-- "applicationDidBecomeActive"
 - "applicationWillEnterForeground"
-- "applicationWillResignActive"
-- "applicationDidEnterBackground"
-- "application"
+- "applicationDidBecomeActive"
 - "applicationWillTerminate"
 - "window"
+- "applicationDidEnterBackground"
+- "application"
+- "applicationWillResignActive"
 depends-top-level:
-- "UIWindow"
+- "Bool"
+- "UIResponder"
+- "AppDelegate"
+- !private "BooleanLiteralType"
 - "AnyObject"
 - "UIApplicationDelegate"
-- !private "BooleanLiteralType"
-- "AppDelegate"
 - "NSObject"
-- "UIResponder"
-- "Bool"
 - "UIApplication"
+- "UIWindow"
 depends-member:
 - ["PSs9AnyObject", "application"]
 - ["PSs9AnyObject", "applicationDidBecomeActive"]

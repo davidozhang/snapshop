@@ -7,13 +7,13 @@ provides-member:
 - ["C8snapshop4Item", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "String"
-- "NSString"
-- "Int"
 - "Item"
-- "Double"
-- "NSDictionary"
 - !private "StringLiteralType"
+- "Double"
+- "NSString"
+- "NSDictionary"
+- "Int"
+- "String"
 depends-member:
 - !private ["PSs9AnyObject", "count"]
 - !private ["PSs9AnyObject", "image"]

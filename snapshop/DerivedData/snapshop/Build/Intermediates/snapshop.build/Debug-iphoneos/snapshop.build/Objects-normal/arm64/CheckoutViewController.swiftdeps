@@ -6,45 +6,47 @@ provides-nominal:
 provides-member:
 - ["C8snapshop22CheckoutViewController", ""]
 provides-dynamic-lookup:
-- "subtotal"
-- "dropInViewControllerDidCancel"
-- "userDidCancelPayment"
 - "total"
-- "braintree"
-- "viewDidLoad"
-- "tappedPayButton"
 - "didReceiveMemoryWarning"
-- "tax"
+- "braintree"
 - "viewDidAppear"
-- "dropInViewController"
+- "userDidCancelPayment"
+- "dropInViewControllerDidCancel"
+- "tax"
+- "tappedPayButton"
+- "viewDidLoad"
 - "payButton"
+- "subtotal"
+- "dropInViewController"
 depends-top-level:
-- !private "UIColor"
-- !private "NSURLSession"
-- !private "NSUTF8StringEncoding"
-- !private "BooleanLiteralType"
-- !private "Double"
-- "Bool"
-- !private "+"
-- !private "UIBarButtonSystemItem"
 - !private "*"
+- !private "UIStoryboard"
+- !private "Double"
+- "BTDropInViewController"
+- !private "UIColor"
+- !private "NSUTF8StringEncoding"
+- "ShoppingCart"
 - "BTPaymentMethod"
+- !private "BooleanLiteralType"
 - "BTDropInViewControllerDelegate"
-- !private "StringLiteralType"
-- !private "NSMutableURLRequest"
+- !private "NSURLSession"
 - "UIButton"
 - !private "UIControlEvents"
-- !private "Void"
-- !private "UIBarButtonItem"
-- "BTDropInViewController"
-- !private "NSURL"
+- !private "NSMutableURLRequest"
+- !private "+"
+- !private "ThankYouViewController"
 - "CheckoutViewController"
-- !private "String"
-- !private "UINavigationController"
-- "UILabel"
-- "ShoppingCart"
-- "Braintree"
+- !private "Void"
 - "UIViewController"
+- !private "NSURL"
+- !private "UIBarButtonSystemItem"
+- !private "String"
+- "Braintree"
+- !private "UINavigationController"
+- "Bool"
+- !private "StringLiteralType"
+- "UILabel"
+- !private "UIBarButtonItem"
 depends-member:
 - !private ["PSs9AnyObject", "Braintree"]
 - !private ["PSs9AnyObject", "NSMutableURLRequest"]
@@ -58,6 +60,7 @@ depends-member:
 - !private ["PSs9AnyObject", "UIColor"]
 - !private ["PSs9AnyObject", "UIControlEvents"]
 - !private ["PSs9AnyObject", "UINavigationController"]
+- !private ["PSs9AnyObject", "UIStoryboard"]
 - !private ["PSs9AnyObject", "addTarget"]
 - !private ["PSs9AnyObject", "backgroundColor"]
 - ["PSs9AnyObject", "braintree"]
@@ -72,6 +75,7 @@ depends-member:
 - !private ["PSs9AnyObject", "getSubtotal"]
 - ["PSs9AnyObject", "init"]
 - ["PSs9AnyObject", "instance"]
+- !private ["PSs9AnyObject", "instantiateViewControllerWithIdentifier"]
 - !private ["PSs9AnyObject", "leftBarButtonItem"]
 - !private ["PSs9AnyObject", "navigationItem"]
 - ["PSs9AnyObject", "payButton"]
@@ -106,6 +110,7 @@ depends-member:
 - !private ["PSo30BTDropInViewControllerDelegate", "UIColor"]
 - !private ["PSo30BTDropInViewControllerDelegate", "UIControlEvents"]
 - !private ["PSo30BTDropInViewControllerDelegate", "UINavigationController"]
+- !private ["PSo30BTDropInViewControllerDelegate", "UIStoryboard"]
 - !private ["PSo30BTDropInViewControllerDelegate", "braintree"]
 - !private ["PSo30BTDropInViewControllerDelegate", "dismissViewControllerAnimated"]
 - ["PSo30BTDropInViewControllerDelegate", "dropInViewController"]
@@ -133,6 +138,7 @@ depends-member:
 - !private ["PSs11CVarArgType", "UIColor"]
 - !private ["PSs11CVarArgType", "UIControlEvents"]
 - !private ["PSs11CVarArgType", "UINavigationController"]
+- !private ["PSs11CVarArgType", "UIStoryboard"]
 - !private ["PSs11CVarArgType", "addTarget"]
 - !private ["PSs11CVarArgType", "backgroundColor"]
 - ["PSs11CVarArgType", "braintree"]
@@ -145,6 +151,7 @@ depends-member:
 - !private ["PSs11CVarArgType", "dropInViewControllerWithDelegate"]
 - !private ["PSs11CVarArgType", "enabled"]
 - ["PSs11CVarArgType", "init"]
+- !private ["PSs11CVarArgType", "instantiateViewControllerWithIdentifier"]
 - !private ["PSs11CVarArgType", "leftBarButtonItem"]
 - !private ["PSs11CVarArgType", "navigationItem"]
 - ["PSs11CVarArgType", "payButton"]
@@ -175,6 +182,7 @@ depends-member:
 - !private ["C8snapshop22CheckoutViewController", "NSUTF8StringEncoding"]
 - ["C8snapshop22CheckoutViewController", "ShoppingCart"]
 - !private ["C8snapshop22CheckoutViewController", "String"]
+- !private ["C8snapshop22CheckoutViewController", "ThankYouViewController"]
 - !private ["C8snapshop22CheckoutViewController", "UIBarButtonItem"]
 - !private ["C8snapshop22CheckoutViewController", "UIBarButtonSystemItem"]
 - ["C8snapshop22CheckoutViewController", "UIButton"]
@@ -182,6 +190,7 @@ depends-member:
 - !private ["C8snapshop22CheckoutViewController", "UIControlEvents"]
 - ["C8snapshop22CheckoutViewController", "UILabel"]
 - !private ["C8snapshop22CheckoutViewController", "UINavigationController"]
+- !private ["C8snapshop22CheckoutViewController", "UIStoryboard"]
 - !private ["C8snapshop22CheckoutViewController", "Void"]
 - ["C8snapshop22CheckoutViewController", "braintree"]
 - ["C8snapshop22CheckoutViewController", "deinit"]
@@ -215,6 +224,7 @@ depends-member:
 - !private ["PSs23CustomStringConvertible", "UIColor"]
 - !private ["PSs23CustomStringConvertible", "UIControlEvents"]
 - !private ["PSs23CustomStringConvertible", "UINavigationController"]
+- !private ["PSs23CustomStringConvertible", "UIStoryboard"]
 - !private ["PSs23CustomStringConvertible", "addTarget"]
 - !private ["PSs23CustomStringConvertible", "backgroundColor"]
 - ["PSs23CustomStringConvertible", "braintree"]
@@ -227,6 +237,7 @@ depends-member:
 - !private ["PSs23CustomStringConvertible", "dropInViewControllerWithDelegate"]
 - !private ["PSs23CustomStringConvertible", "enabled"]
 - ["PSs23CustomStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "instantiateViewControllerWithIdentifier"]
 - !private ["PSs23CustomStringConvertible", "leftBarButtonItem"]
 - !private ["PSs23CustomStringConvertible", "navigationItem"]
 - ["PSs23CustomStringConvertible", "payButton"]
@@ -260,6 +271,7 @@ depends-member:
 - !private ["PSs9Equatable", "UIColor"]
 - !private ["PSs9Equatable", "UIControlEvents"]
 - !private ["PSs9Equatable", "UINavigationController"]
+- !private ["PSs9Equatable", "UIStoryboard"]
 - !private ["PSs9Equatable", "addTarget"]
 - !private ["PSs9Equatable", "backgroundColor"]
 - ["PSs9Equatable", "braintree"]
@@ -272,6 +284,7 @@ depends-member:
 - !private ["PSs9Equatable", "dropInViewControllerWithDelegate"]
 - !private ["PSs9Equatable", "enabled"]
 - ["PSs9Equatable", "init"]
+- !private ["PSs9Equatable", "instantiateViewControllerWithIdentifier"]
 - !private ["PSs9Equatable", "leftBarButtonItem"]
 - !private ["PSs9Equatable", "navigationItem"]
 - ["PSs9Equatable", "payButton"]
@@ -305,6 +318,7 @@ depends-member:
 - !private ["PSs8Hashable", "UIColor"]
 - !private ["PSs8Hashable", "UIControlEvents"]
 - !private ["PSs8Hashable", "UINavigationController"]
+- !private ["PSs8Hashable", "UIStoryboard"]
 - !private ["PSs8Hashable", "addTarget"]
 - !private ["PSs8Hashable", "backgroundColor"]
 - ["PSs8Hashable", "braintree"]
@@ -317,6 +331,7 @@ depends-member:
 - !private ["PSs8Hashable", "dropInViewControllerWithDelegate"]
 - !private ["PSs8Hashable", "enabled"]
 - ["PSs8Hashable", "init"]
+- !private ["PSs8Hashable", "instantiateViewControllerWithIdentifier"]
 - !private ["PSs8Hashable", "leftBarButtonItem"]
 - !private ["PSs8Hashable", "navigationItem"]
 - ["PSs8Hashable", "payButton"]
@@ -349,6 +364,7 @@ depends-member:
 - !private ["PSo8NSCoding", "UIColor"]
 - !private ["PSo8NSCoding", "UIControlEvents"]
 - !private ["PSo8NSCoding", "UINavigationController"]
+- !private ["PSo8NSCoding", "UIStoryboard"]
 - !private ["PSo8NSCoding", "addTarget"]
 - !private ["PSo8NSCoding", "backgroundColor"]
 - ["PSo8NSCoding", "braintree"]
@@ -391,6 +407,7 @@ depends-member:
 - !private ["PSo26NSExtensionRequestHandling", "UIColor"]
 - !private ["PSo26NSExtensionRequestHandling", "UIControlEvents"]
 - !private ["PSo26NSExtensionRequestHandling", "UINavigationController"]
+- !private ["PSo26NSExtensionRequestHandling", "UIStoryboard"]
 - ["PSo26NSExtensionRequestHandling", "braintree"]
 - ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
 - !private ["PSo26NSExtensionRequestHandling", "dismissViewControllerAnimated"]
@@ -426,6 +443,7 @@ depends-member:
 - !private ["CSo8NSObject", "NSUTF8StringEncoding"]
 - ["CSo8NSObject", "ShoppingCart"]
 - !private ["CSo8NSObject", "String"]
+- !private ["CSo8NSObject", "ThankYouViewController"]
 - !private ["CSo8NSObject", "UIBarButtonItem"]
 - !private ["CSo8NSObject", "UIBarButtonSystemItem"]
 - ["CSo8NSObject", "UIButton"]
@@ -433,6 +451,7 @@ depends-member:
 - !private ["CSo8NSObject", "UIControlEvents"]
 - ["CSo8NSObject", "UILabel"]
 - !private ["CSo8NSObject", "UINavigationController"]
+- !private ["CSo8NSObject", "UIStoryboard"]
 - !private ["CSo8NSObject", "Void"]
 - !private ["CSo8NSObject", "addTarget"]
 - !private ["CSo8NSObject", "backgroundColor"]
@@ -446,6 +465,7 @@ depends-member:
 - !private ["CSo8NSObject", "dropInViewControllerWithDelegate"]
 - !private ["CSo8NSObject", "enabled"]
 - ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "instantiateViewControllerWithIdentifier"]
 - !private ["CSo8NSObject", "leftBarButtonItem"]
 - !private ["CSo8NSObject", "navigationItem"]
 - ["CSo8NSObject", "payButton"]
@@ -476,6 +496,7 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "UIColor"]
 - !private ["PSo16NSObjectProtocol", "UIControlEvents"]
 - !private ["PSo16NSObjectProtocol", "UINavigationController"]
+- !private ["PSo16NSObjectProtocol", "UIStoryboard"]
 - !private ["PSo16NSObjectProtocol", "addTarget"]
 - !private ["PSo16NSObjectProtocol", "backgroundColor"]
 - ["PSo16NSObjectProtocol", "braintree"]
@@ -488,6 +509,7 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "dropInViewControllerWithDelegate"]
 - !private ["PSo16NSObjectProtocol", "enabled"]
 - ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "instantiateViewControllerWithIdentifier"]
 - !private ["PSo16NSObjectProtocol", "leftBarButtonItem"]
 - !private ["PSo16NSObjectProtocol", "navigationItem"]
 - ["PSo16NSObjectProtocol", "payButton"]
@@ -553,6 +575,7 @@ depends-member:
 - !private ["PSo21UIAppearanceContainer", "UIColor"]
 - !private ["PSo21UIAppearanceContainer", "UIControlEvents"]
 - !private ["PSo21UIAppearanceContainer", "UINavigationController"]
+- !private ["PSo21UIAppearanceContainer", "UIStoryboard"]
 - !private ["PSo21UIAppearanceContainer", "addTarget"]
 - !private ["PSo21UIAppearanceContainer", "backgroundColor"]
 - ["PSo21UIAppearanceContainer", "braintree"]
@@ -597,6 +620,7 @@ depends-member:
 - !private ["PSo18UIContentContainer", "UIColor"]
 - !private ["PSo18UIContentContainer", "UIControlEvents"]
 - !private ["PSo18UIContentContainer", "UINavigationController"]
+- !private ["PSo18UIContentContainer", "UIStoryboard"]
 - ["PSo18UIContentContainer", "braintree"]
 - ["PSo18UIContentContainer", "didReceiveMemoryWarning"]
 - !private ["PSo18UIContentContainer", "dismissViewControllerAnimated"]
@@ -643,6 +667,7 @@ depends-member:
 - !private ["PSo18UIFocusEnvironment", "UIColor"]
 - !private ["PSo18UIFocusEnvironment", "UIControlEvents"]
 - !private ["PSo18UIFocusEnvironment", "UINavigationController"]
+- !private ["PSo18UIFocusEnvironment", "UIStoryboard"]
 - !private ["PSo18UIFocusEnvironment", "addTarget"]
 - !private ["PSo18UIFocusEnvironment", "backgroundColor"]
 - ["PSo18UIFocusEnvironment", "braintree"]
@@ -682,6 +707,7 @@ depends-member:
 - !private ["CSo11UIResponder", "NSUTF8StringEncoding"]
 - ["CSo11UIResponder", "ShoppingCart"]
 - !private ["CSo11UIResponder", "String"]
+- !private ["CSo11UIResponder", "ThankYouViewController"]
 - !private ["CSo11UIResponder", "UIBarButtonItem"]
 - !private ["CSo11UIResponder", "UIBarButtonSystemItem"]
 - ["CSo11UIResponder", "UIButton"]
@@ -689,6 +715,7 @@ depends-member:
 - !private ["CSo11UIResponder", "UIControlEvents"]
 - ["CSo11UIResponder", "UILabel"]
 - !private ["CSo11UIResponder", "UINavigationController"]
+- !private ["CSo11UIResponder", "UIStoryboard"]
 - !private ["CSo11UIResponder", "Void"]
 - !private ["CSo11UIResponder", "addTarget"]
 - !private ["CSo11UIResponder", "backgroundColor"]
@@ -726,6 +753,7 @@ depends-member:
 - !private ["PSo16UIStateRestoring", "UIColor"]
 - !private ["PSo16UIStateRestoring", "UIControlEvents"]
 - !private ["PSo16UIStateRestoring", "UINavigationController"]
+- !private ["PSo16UIStateRestoring", "UIStoryboard"]
 - ["PSo16UIStateRestoring", "braintree"]
 - ["PSo16UIStateRestoring", "didReceiveMemoryWarning"]
 - !private ["PSo16UIStateRestoring", "dismissViewControllerAnimated"]
@@ -746,6 +774,8 @@ depends-member:
 - ["PSo16UIStateRestoring", "viewDidAppear"]
 - ["PSo16UIStateRestoring", "viewDidLoad"]
 - ["PSo16UIStateRestoring", ""]
+- !private ["CSo12UIStoryboard", "init"]
+- !private ["CSo12UIStoryboard", "instantiateViewControllerWithIdentifier"]
 - !private ["PSo18UITraitEnvironment", "Braintree"]
 - !private ["PSo18UITraitEnvironment", "NSMutableURLRequest"]
 - !private ["PSo18UITraitEnvironment", "NSURL"]
@@ -758,6 +788,7 @@ depends-member:
 - !private ["PSo18UITraitEnvironment", "UIColor"]
 - !private ["PSo18UITraitEnvironment", "UIControlEvents"]
 - !private ["PSo18UITraitEnvironment", "UINavigationController"]
+- !private ["PSo18UITraitEnvironment", "UIStoryboard"]
 - !private ["PSo18UITraitEnvironment", "addTarget"]
 - !private ["PSo18UITraitEnvironment", "backgroundColor"]
 - ["PSo18UITraitEnvironment", "braintree"]
@@ -799,6 +830,7 @@ depends-member:
 - !private ["CSo16UIViewController", "NSUTF8StringEncoding"]
 - ["CSo16UIViewController", "ShoppingCart"]
 - !private ["CSo16UIViewController", "String"]
+- !private ["CSo16UIViewController", "ThankYouViewController"]
 - !private ["CSo16UIViewController", "UIBarButtonItem"]
 - !private ["CSo16UIViewController", "UIBarButtonSystemItem"]
 - ["CSo16UIViewController", "UIButton"]
@@ -806,8 +838,10 @@ depends-member:
 - !private ["CSo16UIViewController", "UIControlEvents"]
 - ["CSo16UIViewController", "UILabel"]
 - !private ["CSo16UIViewController", "UINavigationController"]
+- !private ["CSo16UIViewController", "UIStoryboard"]
 - !private ["CSo16UIViewController", "Void"]
 - ["CSo16UIViewController", "braintree"]
+- !private ["CSo16UIViewController", "deinit"]
 - ["CSo16UIViewController", "didReceiveMemoryWarning"]
 - !private ["CSo16UIViewController", "dismissViewControllerAnimated"]
 - ["CSo16UIViewController", "dropInViewController"]
@@ -901,6 +935,7 @@ depends-nominal:
 - !private "CSo16UINavigationItem"
 - "CSo11UIResponder"
 - "PSo16UIStateRestoring"
+- !private "CSo12UIStoryboard"
 - "PSo18UITraitEnvironment"
 - !private "CSo6UIView"
 - "CSo16UIViewController"

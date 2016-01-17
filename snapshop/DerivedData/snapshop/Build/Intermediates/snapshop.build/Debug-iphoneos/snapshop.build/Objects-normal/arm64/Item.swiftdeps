@@ -8,11 +8,11 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - "Double"
-- "NSDictionary"
-- "String"
-- "Item"
 - "NSString"
+- "NSDictionary"
 - !private "StringLiteralType"
+- "Item"
+- "String"
 - "Int"
 depends-member:
 - !private ["PSs9AnyObject", "count"]
@@ -196,4 +196,8 @@ depends-external:
 - "/Users/david/github/snapshop/snapshop/DerivedData/snapshop/Build/Products/Debug-iphoneos/Braintree.framework/Headers/Braintree.h"
 - "/Users/david/github/snapshop/snapshop/DerivedData/snapshop/Build/Products/Debug-iphoneos/Braintree.framework/Headers/Braintree-umbrella.h"
 - "/Users/david/github/snapshop/snapshop/DerivedData/snapshop/Build/Products/Debug-iphoneos/Braintree.framework/Modules/module.modulemap"
+- "/Users/david/github/snapshop/snapshop/DerivedData/snapshop/Build/Products/Debug-iphoneos/ImageLoader.framework/Modules/ImageLoader.swiftmodule/arm64.swiftmodule"
+- "/Users/david/github/snapshop/snapshop/DerivedData/snapshop/Build/Products/Debug-iphoneos/ImageLoader.framework/Headers/ImageLoader-Swift.h"
+- "/Users/david/github/snapshop/snapshop/DerivedData/snapshop/Build/Products/Debug-iphoneos/ImageLoader.framework/Headers/ImageLoader-umbrella.h"
+- "/Users/david/github/snapshop/snapshop/DerivedData/snapshop/Build/Products/Debug-iphoneos/ImageLoader.framework/Modules/module.modulemap"
 interface-hash: "0b114a38e41c6d51308298dcf1720dfe"

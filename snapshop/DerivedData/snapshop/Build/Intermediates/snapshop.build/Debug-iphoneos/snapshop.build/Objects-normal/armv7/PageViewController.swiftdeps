@@ -6,27 +6,27 @@ provides-nominal:
 provides-member:
 - ["C8snapshop18PageViewController", ""]
 provides-dynamic-lookup:
-- "showCart"
-- "showCheckout"
 - "cameraController"
-- "viewDidLoad"
+- "showCart"
 - "loadControllers"
 - "pageViewController"
 - "pageViewController"
-- "checkoutController"
 - "cartController"
+- "viewDidLoad"
+- "showCheckout"
+- "checkoutController"
 depends-top-level:
-- !private "BooleanLiteralType"
-- "CheckoutViewController"
-- "UIViewController"
-- "CartViewController"
-- "UIPageViewControllerDataSource"
-- !private "Array"
-- !private "StringLiteralType"
 - "UIPageViewController"
+- "UIPageViewControllerDataSource"
+- !private "BooleanLiteralType"
+- "CartViewController"
+- !private "Array"
 - "PageViewController"
-- "ViewController"
 - !private "UIStoryboard"
+- !private "StringLiteralType"
+- "CheckoutViewController"
+- "ViewController"
+- "UIViewController"
 depends-member:
 - ["PSo38AVCaptureMetadataOutputObjectsDelegate", "init"]
 - !private ["PSs9AnyObject", "UIStoryboard"]

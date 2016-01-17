@@ -20,6 +20,7 @@
 		630FB9E71C4ABBCD00A4BCE0 /* snapshopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630FB9E61C4ABBCD00A4BCE0 /* snapshopUITests.swift */; };
 		63108D8F1C4B2ECB0044BAC1 /* ShoppingCart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63108D8E1C4B2ECB0044BAC1 /* ShoppingCart.swift */; };
 		63108D911C4B321D0044BAC1 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63108D901C4B321D0044BAC1 /* Item.swift */; };
+		63CF0F411C4BC1D4007AFA19 /* ThankYouViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CF0F401C4BC1D3007AFA19 /* ThankYouViewController.swift */; };
 		A2654263DA0DE6575EEAFB1F /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F06AC74ACFA0552D89CB5E93 /* Pods.framework */; };
 /* End PBXBuildFile section */
 
@@ -62,6 +63,7 @@
 		63108D8E1C4B2ECB0044BAC1 /* ShoppingCart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoppingCart.swift; sourceTree = "<group>"; };
 		63108D901C4B321D0044BAC1 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		6394EC001C4AE45F008C0D2A /* Firebase */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Firebase; path = Pods/Firebase; sourceTree = "<group>"; };
+		63CF0F401C4BC1D3007AFA19 /* ThankYouViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThankYouViewController.swift; sourceTree = "<group>"; };
 		8D3A7BFC84EDBDE962653F2A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		F06AC74ACFA0552D89CB5E93 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -129,6 +131,7 @@
 				240EDC741C4B473B000A1AF2 /* CartViewController.swift */,
 				240EDC761C4B47A7000A1AF2 /* CartTableViewCell.swift */,
 				240EDC781C4B4990000A1AF2 /* PageViewController.swift */,
+				63CF0F401C4BC1D3007AFA19 /* ThankYouViewController.swift */,
 			);
 			path = snapshop;
 			sourceTree = "<group>";
@@ -354,6 +357,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63CF0F411C4BC1D4007AFA19 /* ThankYouViewController.swift in Sources */,
 				240EDC771C4B47A7000A1AF2 /* CartTableViewCell.swift in Sources */,
 				63108D911C4B321D0044BAC1 /* Item.swift in Sources */,
 				630FB9C91C4ABBCC00A4BCE0 /* ViewController.swift in Sources */,

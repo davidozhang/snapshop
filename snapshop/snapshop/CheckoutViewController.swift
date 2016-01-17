@@ -84,6 +84,9 @@ class CheckoutViewController: UIViewController, BTDropInViewControllerDelegate {
     func dropInViewController(viewController: BTDropInViewController!, didSucceedWithPaymentMethod paymentMethod: BTPaymentMethod!) {
         //postNonceToServer(paymentMethod.nonce) // Send payment method nonce to your server
         dismissViewControllerAnimated(true, completion: nil)
+        let sb = UIStoryboard(name: "Main", bundle: nil)
+        let thankYouController = sb.instantiateViewControllerWithIdentifier("thankYouViewController") as? ThankYouViewController
+        self.presentViewController(thankYouController!, animated: true, completion: nil)
     }
     
     func dropInViewControllerDidCancel(viewController: BTDropInViewController!) {
