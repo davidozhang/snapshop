@@ -61,7 +61,10 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K2K-z6-qUd">
-                                                    <rect key="frame" x="78" y="19.5" width="42" height="20.5"/>
+                                                    <rect key="frame" x="78" y="19.5" width="200" height="20.5"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="200" id="hdn-jW-7ba"/>
+                                                    </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
@@ -82,12 +85,18 @@
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="K2K-z6-qUd" firstAttribute="leading" secondItem="QBS-JY-b3j" secondAttribute="trailing" constant="20" id="6gf-6l-5Bv"/>
+                                                <constraint firstItem="rFo-ty-vQW" firstAttribute="leading" secondItem="K2K-z6-qUd" secondAttribute="trailing" constant="213" id="7we-Xo-cMJ"/>
                                                 <constraint firstAttribute="trailingMargin" secondItem="rFo-ty-vQW" secondAttribute="trailing" id="Io5-Lj-UXS"/>
                                                 <constraint firstItem="K2K-z6-qUd" firstAttribute="centerY" secondItem="ZNf-Hw-3No" secondAttribute="centerY" id="Lbf-DU-pWU"/>
                                                 <constraint firstItem="QBS-JY-b3j" firstAttribute="leading" secondItem="ZNf-Hw-3No" secondAttribute="leadingMargin" constant="10" id="RD5-cf-IJA"/>
                                                 <constraint firstItem="rFo-ty-vQW" firstAttribute="centerY" secondItem="ZNf-Hw-3No" secondAttribute="centerY" id="yUY-bU-j2y"/>
                                                 <constraint firstItem="QBS-JY-b3j" firstAttribute="centerY" secondItem="ZNf-Hw-3No" secondAttribute="centerY" id="z6X-MZ-mUZ"/>
                                             </constraints>
+                                            <variation key="default">
+                                                <mask key="constraints">
+                                                    <exclude reference="7we-Xo-cMJ"/>
+                                                </mask>
+                                            </variation>
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="label" destination="QBS-JY-b3j" id="bX5-tj-5Z6"/>

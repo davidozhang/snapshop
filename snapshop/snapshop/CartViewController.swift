@@ -1,5 +1,5 @@
 import UIKit
-import Kingfisher
+import ImageLoader
 
 
 class CartViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
@@ -26,7 +26,7 @@ class CartViewController: UIViewController, UITableViewDataSource, UITableViewDe
         cell.title.text = "\(curName) x \(curCount)"
         cell.label.layer.cornerRadius = 20;
         cell.label.clipsToBounds = true
-        cell.label.kf_setImageWithURL(NSURL(fileURLWithPath: curItem.image as String))
+        cell.label.load(curItem.image as String)
         cell.price.text = String(curItem.price * Double(curItem.count))
         
         return cell;

@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '610535CF911CAA49A86B9D96'
-               BlueprintName = 'Kingfisher'
+               BlueprintIdentifier = 'ED4FA04A648D388763E156B5'
+               BlueprintName = 'CNPPopupController'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'Kingfisher.framework'>
+               BuildableName = 'CNPPopupController.framework'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
