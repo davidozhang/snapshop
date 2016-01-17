@@ -21,6 +21,14 @@ class ShoppingCart {
         return cart
     }
 
+    func getSubtotal() -> Double {
+        var sum = 0.0
+        for (index, element) in cart.enumerate() {
+            sum += Double(element.price * Double(element.count))
+        }
+        return sum
+    }
+    
     func insert(n: NSDictionary) {
         for (index, element) in cart.enumerate() {
             if element.name == n["name"] as? String {

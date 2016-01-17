@@ -6,23 +6,23 @@ provides-nominal:
 provides-member:
 - ["C8snapshop11AppDelegate", ""]
 provides-dynamic-lookup:
-- "window"
 - "applicationDidBecomeActive"
-- "applicationWillTerminate"
-- "applicationWillResignActive"
-- "applicationDidEnterBackground"
 - "applicationWillEnterForeground"
+- "applicationDidEnterBackground"
+- "window"
+- "applicationWillResignActive"
+- "applicationWillTerminate"
 - "application"
 depends-top-level:
+- "UIWindow"
+- "AppDelegate"
 - !private "BooleanLiteralType"
 - "UIResponder"
-- "UIWindow"
 - "UIApplicationDelegate"
+- "Bool"
 - "NSObject"
 - "AnyObject"
 - "UIApplication"
-- "AppDelegate"
-- "Bool"
 depends-member:
 - ["PSs9AnyObject", "application"]
 - ["PSs9AnyObject", "applicationDidBecomeActive"]
@@ -324,4 +324,8 @@ depends-external:
 - "/Users/david/github/snapshop/snapshop/DerivedData/snapshop/Build/Products/Debug-iphoneos/Braintree.framework/Headers/Braintree.h"
 - "/Users/david/github/snapshop/snapshop/DerivedData/snapshop/Build/Products/Debug-iphoneos/Braintree.framework/Headers/Braintree-umbrella.h"
 - "/Users/david/github/snapshop/snapshop/DerivedData/snapshop/Build/Products/Debug-iphoneos/Braintree.framework/Modules/module.modulemap"
+- "/Users/david/github/snapshop/snapshop/DerivedData/snapshop/Build/Products/Debug-iphoneos/ImageLoader.framework/Modules/ImageLoader.swiftmodule/arm64.swiftmodule"
+- "/Users/david/github/snapshop/snapshop/DerivedData/snapshop/Build/Products/Debug-iphoneos/ImageLoader.framework/Headers/ImageLoader-Swift.h"
+- "/Users/david/github/snapshop/snapshop/DerivedData/snapshop/Build/Products/Debug-iphoneos/ImageLoader.framework/Headers/ImageLoader-umbrella.h"
+- "/Users/david/github/snapshop/snapshop/DerivedData/snapshop/Build/Products/Debug-iphoneos/ImageLoader.framework/Modules/module.modulemap"
 interface-hash: "eb6deb7e97b205db2b1f8c4c6c87743c"

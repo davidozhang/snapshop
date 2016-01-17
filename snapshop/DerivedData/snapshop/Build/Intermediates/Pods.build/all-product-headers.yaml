@@ -620,6 +620,33 @@
     },
     {
       'type': 'directory',
+      'name': "/Users/david/github/snapshop/snapshop/DerivedData/snapshop/Build/Products/Debug-iphoneos/ImageLoader.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "ImageLoader-Swift.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/DerivedData/snapshop/Build/Products/Debug-iphoneos/ImageLoader.framework/Headers/ImageLoader-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "ImageLoader-umbrella.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/Pods/Target Support Files/ImageLoader/ImageLoader-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/david/github/snapshop/snapshop/DerivedData/snapshop/Build/Products/Debug-iphoneos/ImageLoader.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/david/github/snapshop/snapshop/DerivedData/snapshop/Build/Intermediates/Pods.build/Debug-iphoneos/ImageLoader.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
       'name': "/Users/david/github/snapshop/snapshop/DerivedData/snapshop/Build/Products/Debug-iphoneos/Pods.framework/Headers",
       'contents': [
         {

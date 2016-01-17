@@ -8,25 +8,25 @@ provides-member:
 - ["CSo7UIImage", "decode"]
 provides-dynamic-lookup:
 - "decode"
-- "render"
 - "adjusts"
+- "render"
 depends-top-level:
+- "CGSize"
+- "CGFloat"
+- !private "||"
+- !private "UIGraphicsBeginImageContext"
+- "UIViewContentMode"
+- !private "UIGraphicsGetImageFromCurrentImageContext"
+- !private ">"
 - !private "*"
+- "NSData"
 - "UIImage"
 - !private "/"
 - !private "lock"
-- !private "CGRect"
-- "NSRecursiveLock"
 - !private "<"
+- "NSRecursiveLock"
 - !private "=="
-- "CGSize"
-- "NSData"
-- "UIViewContentMode"
-- !private "||"
-- !private "UIGraphicsBeginImageContext"
-- "CGFloat"
-- !private "UIGraphicsGetImageFromCurrentImageContext"
-- !private ">"
+- !private "CGRect"
 depends-member:
 - !private ["PSs9AnyObject", "CGRect"]
 - !private ["PSs9AnyObject", "CGSize"]

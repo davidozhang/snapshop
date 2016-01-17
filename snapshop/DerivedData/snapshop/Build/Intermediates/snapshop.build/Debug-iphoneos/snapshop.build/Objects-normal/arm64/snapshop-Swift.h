@@ -132,6 +132,7 @@ SWIFT_CLASS("_TtC8snapshop17CartTableViewCell")
 SWIFT_CLASS("_TtC8snapshop18CartViewController")
 @interface CartViewController : UIViewController <UIScrollViewDelegate, UITableViewDelegate, UITableViewDataSource>
 @property (nonatomic, weak) IBOutlet UITableView * __null_unspecified tableView;
+- (void)viewDidAppear:(BOOL)animated;
 - (void)viewDidLoad;
 - (UITableViewCell * __nonnull)tableView:(UITableView * __nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * __nonnull)indexPath;
 - (NSInteger)tableView:(UITableView * __nonnull)tableView numberOfRowsInSection:(NSInteger)section;
@@ -148,12 +149,15 @@ SWIFT_CLASS("_TtC8snapshop18CartViewController")
 SWIFT_CLASS("_TtC8snapshop22CheckoutViewController")
 @interface CheckoutViewController : UIViewController <BTDropInViewControllerDelegate>
 @property (nonatomic, strong) Braintree * __nullable braintree;
+@property (nonatomic, strong) IBOutlet UILabel * __null_unspecified subtotal;
+@property (nonatomic, strong) IBOutlet UILabel * __null_unspecified tax;
+@property (nonatomic, strong) IBOutlet UILabel * __null_unspecified total;
 @property (nonatomic, strong) IBOutlet UIButton * __null_unspecified payButton;
 - (void)viewDidLoad;
+- (void)viewDidAppear:(BOOL)animated;
 - (void)didReceiveMemoryWarning;
 - (void)tappedPayButton;
 - (void)userDidCancelPayment;
-- (void)postNonceToServer:(NSString * __nonnull)paymentMethodNonce;
 - (void)dropInViewController:(BTDropInViewController * __null_unspecified)viewController didSucceedWithPaymentMethod:(BTPaymentMethod * __null_unspecified)paymentMethod;
 - (void)dropInViewControllerDidCancel:(BTDropInViewController * __null_unspecified)viewController;
 - (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
