@@ -24,7 +24,7 @@ class CartViewController: UIViewController, UITableViewDataSource, UITableViewDe
     
         cell.title.text = curItem.name
         cell.quantity.text = String(curItem.count)
-        cell.price.text = String(curItem.price)
+        cell.price.text = String(curItem.price * Double(curItem.count))
         cell.label.layer.cornerRadius = 20
         cell.label.clipsToBounds = true
         
