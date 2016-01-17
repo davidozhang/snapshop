@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="E9d-e4-sri">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="E9d-e4-sri">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
@@ -18,24 +18,127 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="flV-qs-leN">
-                                <rect key="frame" x="20" y="565" width="335" height="61"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lcZ-cn-le3">
+                                <rect key="frame" x="88" y="324" width="74" height="20.5"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Sub-Total">
+                                        <attributes>
+                                            <color key="NSColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <font key="NSFont" size="17" name="HelveticaNeue"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hmU-a0-tc5">
+                                <rect key="frame" x="88" y="349" width="27" height="20.5"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Tax">
+                                        <attributes>
+                                            <color key="NSColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <font key="NSFont" size="17" name="HelveticaNeue"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BCS-p8-A3N">
+                                <rect key="frame" x="88" y="375" width="37.5" height="20.5"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Total">
+                                        <attributes>
+                                            <color key="NSColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <font key="NSFont" size="17" name="HelveticaNeue"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ApP-zD-LZ2">
+                                <rect key="frame" x="232" y="324" width="50" height="21"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="$ 0.00">
+                                        <attributes>
+                                            <color key="NSColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <font key="NSFont" size="17" name="HelveticaNeue"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xDe-sg-fPe">
+                                <rect key="frame" x="232" y="350" width="50" height="21"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="$ 0.00">
+                                        <attributes>
+                                            <color key="NSColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <font key="NSFont" size="17" name="HelveticaNeue"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="br3-FG-4Ht">
+                                <rect key="frame" x="232" y="375.5" width="50" height="21"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="$ 0.00">
+                                        <attributes>
+                                            <color key="NSColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <font key="NSFont" size="17" name="HelveticaNeue"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="flV-qs-leN">
+                                <rect key="frame" x="76" y="501" width="223" height="50"/>
                                 <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="32"/>
                                 <state key="normal" title="Pay">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BrandIcon" translatesAutoresizingMaskIntoConstraints="NO" id="iXe-Bm-nfH">
+                                <rect key="frame" x="0.0" y="73" width="375" height="191"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="flV-qs-leN" secondAttribute="trailing" constant="60" id="4HM-uj-brA"/>
+                            <constraint firstItem="BCS-p8-A3N" firstAttribute="leading" secondItem="L6I-2l-68T" secondAttribute="leadingMargin" constant="72" id="BGa-nH-TBp"/>
+                            <constraint firstItem="xDe-sg-fPe" firstAttribute="top" secondItem="ApP-zD-LZ2" secondAttribute="bottom" constant="5" id="Dix-iO-StU"/>
+                            <constraint firstItem="BCS-p8-A3N" firstAttribute="top" secondItem="hmU-a0-tc5" secondAttribute="bottom" constant="5" id="Lkl-mU-Cmt"/>
+                            <constraint firstItem="br3-FG-4Ht" firstAttribute="leading" secondItem="xDe-sg-fPe" secondAttribute="leading" id="MqX-Fe-zTe"/>
+                            <constraint firstItem="xDe-sg-fPe" firstAttribute="top" secondItem="ApP-zD-LZ2" secondAttribute="bottom" constant="5" id="OPg-he-MRO"/>
+                            <constraint firstItem="ApP-zD-LZ2" firstAttribute="leading" secondItem="lcZ-cn-le3" secondAttribute="trailing" constant="78" id="S2S-cn-5U1"/>
+                            <constraint firstItem="ApP-zD-LZ2" firstAttribute="top" secondItem="lcZ-cn-le3" secondAttribute="top" id="ZXP-Uf-prX"/>
+                            <constraint firstItem="xDe-sg-fPe" firstAttribute="leading" secondItem="ApP-zD-LZ2" secondAttribute="leading" id="ays-hn-q1V"/>
+                            <constraint firstItem="lcZ-cn-le3" firstAttribute="leading" secondItem="L6I-2l-68T" secondAttribute="leadingMargin" constant="72" id="bwV-49-vc1"/>
+                            <constraint firstItem="hmU-a0-tc5" firstAttribute="top" secondItem="lcZ-cn-le3" secondAttribute="bottom" constant="5" id="c5f-9g-ATC"/>
+                            <constraint firstItem="flV-qs-leN" firstAttribute="leading" secondItem="L6I-2l-68T" secondAttribute="leadingMargin" constant="60" id="hxs-CS-xdC"/>
+                            <constraint firstItem="hmU-a0-tc5" firstAttribute="leading" secondItem="L6I-2l-68T" secondAttribute="leadingMargin" constant="72" id="mnd-JP-ulc"/>
+                            <constraint firstItem="br3-FG-4Ht" firstAttribute="top" secondItem="ApP-zD-LZ2" secondAttribute="bottom" constant="5" id="rg1-kt-Lbs"/>
+                            <constraint firstItem="flV-qs-leN" firstAttribute="top" secondItem="br3-FG-4Ht" secondAttribute="bottom" constant="105" id="uWx-Fg-kfX"/>
+                            <constraint firstItem="lcZ-cn-le3" firstAttribute="centerY" secondItem="L6I-2l-68T" secondAttribute="centerY" id="wjw-Wk-OK6"/>
+                            <constraint firstItem="br3-FG-4Ht" firstAttribute="top" secondItem="xDe-sg-fPe" secondAttribute="bottom" constant="5" id="yaz-R5-R2I"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="OPg-he-MRO"/>
+                                <exclude reference="rg1-kt-Lbs"/>
+                            </mask>
+                        </variation>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
                         <outlet property="payButton" destination="flV-qs-leN" id="ODc-4h-nfi"/>
+                        <outlet property="subtotal" destination="ApP-zD-LZ2" id="FxT-Wl-usx"/>
+                        <outlet property="tax" destination="xDe-sg-fPe" id="baA-Xt-5nC"/>
+                        <outlet property="total" destination="br3-FG-4Ht" id="7mF-h7-cfn"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Kjn-tc-pgS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-634.5" y="255.5"/>
+            <point key="canvasLocation" x="-634.5" y="221.5"/>
         </scene>
         <!--Cart View Controller-->
         <scene sceneID="pOW-Ko-1u0">
@@ -161,6 +264,47 @@
             </objects>
             <point key="canvasLocation" x="-634.5" y="918.5"/>
         </scene>
+        <!--Thank You View Controller-->
+        <scene sceneID="Oae-ZA-h0r">
+            <objects>
+                <viewController storyboardIdentifier="thankYouViewController" id="fqF-mU-gye" customClass="ThankYouViewController" customModule="snapshop" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="mp8-cr-wel"/>
+                        <viewControllerLayoutGuide type="bottom" id="YeE-8o-u07"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3fW-1k-6Wl" customClass="ThankYouViewController">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dQR-Uk-pf9">
+                                <rect key="frame" x="0.0" y="304" width="375" height="60"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Thank you for shopping!">
+                                        <attributes>
+                                            <color key="NSColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <font key="NSFont" size="18" name="Menlo-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BrandIcon" translatesAutoresizingMaskIntoConstraints="NO" id="zVA-N4-bvj">
+                                <rect key="frame" x="0.0" y="74" width="375" height="191"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="qr" translatesAutoresizingMaskIntoConstraints="NO" id="faU-sK-NJK">
+                                <rect key="frame" x="107" y="416" width="160" height="155"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sca-0q-5bk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-159.5" y="918.5"/>
+        </scene>
         <!--Page View Controller-->
         <scene sceneID="BrV-zx-GZj">
             <objects>
@@ -175,19 +319,26 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="snapshop" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="viewController" id="BYZ-38-t0r" customClass="ViewController" customModule="snapshop" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-159.5" y="221.5"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="BrandIcon" width="580" height="386"/>
+        <image name="qr" width="3000" height="3000"/>
+    </resources>
 </document>

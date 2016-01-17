@@ -1,9 +1,9 @@
 version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
 options: "7add147250f6642a6c73fd671b2b7127"
-build_time: [506335635, 703710000]
+build_time: [506348584, 30068000]
 inputs:
-  "/Users/david/github/snapshop/snapshop/Pods/ImageLoader/ImageLoader/UIImage+ImageLoader.swift": [506335634, 0]
-  "/Users/david/github/snapshop/snapshop/Pods/ImageLoader/ImageLoader/UIImageView+ImageLoader.swift": [506335634, 0]
-  "/Users/david/github/snapshop/snapshop/Pods/ImageLoader/ImageLoader/ImageLoader.swift": [506335634, 0]
-  "/Users/david/github/snapshop/snapshop/Pods/ImageLoader/ImageLoader/Manager.swift": [506335634, 0]
-  "/Users/david/github/snapshop/snapshop/Pods/ImageLoader/ImageLoader/Diskcached.swift": [506335634, 0]
+  "/Users/david/github/snapshop/snapshop/Pods/ImageLoader/ImageLoader/ImageLoader.swift": [506344137, 0]
+  "/Users/david/github/snapshop/snapshop/Pods/ImageLoader/ImageLoader/UIImage+ImageLoader.swift": [506344137, 0]
+  "/Users/david/github/snapshop/snapshop/Pods/ImageLoader/ImageLoader/Diskcached.swift": [506344137, 0]
+  "/Users/david/github/snapshop/snapshop/Pods/ImageLoader/ImageLoader/UIImageView+ImageLoader.swift": [506344137, 0]
+  "/Users/david/github/snapshop/snapshop/Pods/ImageLoader/ImageLoader/Manager.swift": [506344137, 0]

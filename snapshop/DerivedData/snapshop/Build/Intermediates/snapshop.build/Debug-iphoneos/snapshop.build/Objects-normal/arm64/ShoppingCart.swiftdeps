@@ -7,21 +7,28 @@ provides-member:
 - ["C8snapshop12ShoppingCart", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "Array"
-- "NSDictionary"
 - !private "+="
-- !private "StringLiteralType"
-- "ShoppingCart"
+- !private "FloatLiteralType"
+- "Array"
+- !private "*"
 - !private "String"
 - "Item"
+- !private "StringLiteralType"
+- "NSDictionary"
+- "ShoppingCart"
 - !private "=="
+- "Double"
 depends-member:
+- !private ["PSs16AbsoluteValuable", "init"]
 - !private ["PSs9AnyObject", "Array"]
+- !private ["PSs9AnyObject", "Double"]
 - !private ["PSs9AnyObject", "Item"]
+- ["PSs9AnyObject", "ShoppingCart"]
 - !private ["PSs9AnyObject", "cart"]
 - !private ["PSs9AnyObject", "count"]
-- !private ["PSs9AnyObject", "init"]
+- ["PSs9AnyObject", "init"]
 - !private ["PSs9AnyObject", "name"]
+- !private ["PSs9AnyObject", "price"]
 - !private ["PSs9AnyObject", "subscript"]
 - ["PSs9AnyObject", ""]
 - !private ["Sa", "Generator"]
@@ -49,6 +56,7 @@ depends-member:
 - !private ["PSs11BooleanType", "_getBuiltinLogicValue"]
 - !private ["PSs11CVarArgType", "Distance"]
 - !private ["PSs11CVarArgType", "IntegerLiteralType"]
+- !private ["PSs11CVarArgType", "init"]
 - !private ["PSs11CVarArgType", "subscript"]
 - !private ["PSs14CollectionType", "Generator"]
 - !private ["PSs14CollectionType", "Index"]
@@ -59,6 +67,7 @@ depends-member:
 - !private ["PSs14CollectionType", "init"]
 - !private ["PSs10Comparable", "Distance"]
 - !private ["PSs10Comparable", "IntegerLiteralType"]
+- !private ["PSs10Comparable", "init"]
 - !private ["PSs28CustomDebugStringConvertible", "Generator"]
 - !private ["PSs28CustomDebugStringConvertible", "Index"]
 - !private ["PSs28CustomDebugStringConvertible", "SubSequence"]
@@ -78,18 +87,23 @@ depends-member:
 - !private ["PSs23CustomStringConvertible", "init"]
 - !private ["PSs23CustomStringConvertible", "subscript"]
 - !private ["PSs28DictionaryLiteralConvertible", "subscript"]
+- !private ["Sd", "init"]
 - !private ["VSs18EnumerateGenerator", "Element"]
 - !private ["VSs17EnumerateSequence", "Generator"]
 - !private ["PSs9Equatable", "Distance"]
 - !private ["PSs9Equatable", "IntegerLiteralType"]
 - !private ["PSs9Equatable", "_getBuiltinLogicValue"]
+- !private ["PSs9Equatable", "init"]
 - !private ["PSs9Equatable", "subscript"]
+- !private ["PSs23FloatLiteralConvertible", "init"]
+- !private ["PSs17FloatingPointType", "init"]
 - !private ["PSs16ForwardIndexType", "Distance"]
 - !private ["PSs16ForwardIndexType", "IntegerLiteralType"]
 - !private ["PSs13GeneratorType", "Element"]
 - !private ["PSs8Hashable", "Distance"]
 - !private ["PSs8Hashable", "IntegerLiteralType"]
 - !private ["PSs8Hashable", "_getBuiltinLogicValue"]
+- !private ["PSs8Hashable", "init"]
 - !private ["PSs8Hashable", "subscript"]
 - !private ["PSs9Indexable", "Generator"]
 - !private ["PSs9Indexable", "Index"]
@@ -105,11 +119,13 @@ depends-member:
 - !private ["PSs21IntegerArithmeticType", "IntegerLiteralType"]
 - !private ["PSs25IntegerLiteralConvertible", "Distance"]
 - !private ["PSs25IntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["PSs25IntegerLiteralConvertible", "init"]
 - !private ["PSs11IntegerType", "Distance"]
 - !private ["PSs11IntegerType", "IntegerLiteralType"]
 - !private ["C8snapshop4Item", "count"]
 - !private ["C8snapshop4Item", "init"]
 - !private ["C8snapshop4Item", "name"]
+- !private ["C8snapshop4Item", "price"]
 - !private ["PSs14MirrorPathType", "Distance"]
 - !private ["PSs14MirrorPathType", "IntegerLiteralType"]
 - !private ["PSs21MutableCollectionType", "Generator"]
@@ -162,20 +178,26 @@ depends-member:
 - !private ["PSs12SequenceType", "init"]
 - !private ["PSs12SequenceType", "subscript"]
 - ["C8snapshop12ShoppingCart", "Array"]
+- ["C8snapshop12ShoppingCart", "Double"]
 - ["C8snapshop12ShoppingCart", "Item"]
 - ["C8snapshop12ShoppingCart", "NSDictionary"]
+- ["C8snapshop12ShoppingCart", "ShoppingCart"]
 - !private ["C8snapshop12ShoppingCart", "String"]
 - ["C8snapshop12ShoppingCart", "cart"]
 - ["C8snapshop12ShoppingCart", "deinit"]
 - ["C8snapshop12ShoppingCart", "getArray"]
+- ["C8snapshop12ShoppingCart", "getSubtotal"]
 - ["C8snapshop12ShoppingCart", "init"]
 - ["C8snapshop12ShoppingCart", "insert"]
+- ["C8snapshop12ShoppingCart", "instance"]
 - !private ["PSs17SignedIntegerType", "Distance"]
 - !private ["PSs17SignedIntegerType", "IntegerLiteralType"]
 - !private ["PSs16SignedNumberType", "Distance"]
 - !private ["PSs16SignedNumberType", "IntegerLiteralType"]
+- !private ["PSs16SignedNumberType", "init"]
 - !private ["PSs10Strideable", "Distance"]
 - !private ["PSs10Strideable", "IntegerLiteralType"]
+- !private ["PSs10Strideable", "init"]
 - !private ["SS", "deinit"]
 - !private ["PSs10_ArrayType", "Generator"]
 - !private ["PSs10_ArrayType", "Index"]
@@ -185,8 +207,12 @@ depends-member:
 - !private ["PSs10_ArrayType", "enumerate"]
 - !private ["PSs10_ArrayType", "init"]
 - !private ["PSs33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs31_BuiltinFloatLiteralConvertible", "init"]
 - !private ["PSs33_BuiltinIntegerLiteralConvertible", "Distance"]
 - !private ["PSs33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "init"]
+- !private ["PSs19_CVarArgAlignedType", "init"]
+- !private ["PSs22_CVarArgPassedAsDouble", "init"]
 - !private ["PSs24_DestructorSafeContainer", "Generator"]
 - !private ["PSs24_DestructorSafeContainer", "Index"]
 - !private ["PSs24_DestructorSafeContainer", "SubSequence"]
@@ -227,7 +253,9 @@ depends-member:
 - !private ["PSs18_SignedIntegerType", "IntegerLiteralType"]
 - !private ["PSs11_Strideable", "Distance"]
 - !private ["PSs11_Strideable", "IntegerLiteralType"]
+- !private ["PSs11_Strideable", "init"]
 depends-nominal:
+- !private "PSs16AbsoluteValuable"
 - "PSs9AnyObject"
 - !private "Sa"
 - !private "PSs23ArrayLiteralConvertible"
@@ -243,9 +271,12 @@ depends-nominal:
 - !private "PSs28CustomDebugStringConvertible"
 - !private "PSs23CustomStringConvertible"
 - !private "PSs28DictionaryLiteralConvertible"
+- !private "Sd"
 - !private "VSs18EnumerateGenerator"
 - !private "VSs17EnumerateSequence"
 - !private "PSs9Equatable"
+- !private "PSs23FloatLiteralConvertible"
+- !private "PSs17FloatingPointType"
 - !private "PSs16ForwardIndexType"
 - !private "PSs13GeneratorType"
 - !private "PSs8Hashable"
@@ -279,7 +310,10 @@ depends-nominal:
 - !private "SS"
 - !private "PSs10_ArrayType"
 - !private "PSs33_BuiltinBooleanLiteralConvertible"
+- !private "PSs31_BuiltinFloatLiteralConvertible"
 - !private "PSs33_BuiltinIntegerLiteralConvertible"
+- !private "PSs19_CVarArgAlignedType"
+- !private "PSs22_CVarArgPassedAsDouble"
 - !private "PSs24_DestructorSafeContainer"
 - !private "PSs14_Incrementable"
 - !private "PSs22_IntegerArithmeticType"
@@ -415,4 +449,8 @@ depends-external:
 - "/Users/david/github/snapshop/snapshop/DerivedData/snapshop/Build/Products/Debug-iphoneos/Braintree.framework/Headers/Braintree.h"
 - "/Users/david/github/snapshop/snapshop/DerivedData/snapshop/Build/Products/Debug-iphoneos/Braintree.framework/Headers/Braintree-umbrella.h"
 - "/Users/david/github/snapshop/snapshop/DerivedData/snapshop/Build/Products/Debug-iphoneos/Braintree.framework/Modules/module.modulemap"
-interface-hash: "1a11b83073d463203daa136afd15953d"
+- "/Users/david/github/snapshop/snapshop/DerivedData/snapshop/Build/Products/Debug-iphoneos/ImageLoader.framework/Modules/ImageLoader.swiftmodule/arm64.swiftmodule"
+- "/Users/david/github/snapshop/snapshop/DerivedData/snapshop/Build/Products/Debug-iphoneos/ImageLoader.framework/Headers/ImageLoader-Swift.h"
+- "/Users/david/github/snapshop/snapshop/DerivedData/snapshop/Build/Products/Debug-iphoneos/ImageLoader.framework/Headers/ImageLoader-umbrella.h"
+- "/Users/david/github/snapshop/snapshop/DerivedData/snapshop/Build/Products/Debug-iphoneos/ImageLoader.framework/Modules/module.modulemap"
+interface-hash: "9e260298e63989b05c229666de03b9c8"

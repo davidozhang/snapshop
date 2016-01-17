@@ -88,6 +88,7 @@ typedef int swift_int4  __attribute__((__ext_vector_type__(4)));
 #if defined(__has_feature) && __has_feature(modules)
 @import UIKit;
 @import CoreGraphics;
+@import Braintree;
 @import AVFoundation;
 @import CNPPopupController;
 #endif
@@ -142,11 +143,25 @@ SWIFT_CLASS("_TtC8snapshop18CartViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class Braintree;
+@class UIButton;
+@class BTDropInViewController;
+@class BTPaymentMethod;
 
 SWIFT_CLASS("_TtC8snapshop22CheckoutViewController")
-@interface CheckoutViewController : UIViewController
+@interface CheckoutViewController : UIViewController <BTDropInViewControllerDelegate>
+@property (nonatomic, strong) Braintree * __nullable braintree;
+@property (nonatomic, strong) IBOutlet UILabel * __null_unspecified subtotal;
+@property (nonatomic, strong) IBOutlet UILabel * __null_unspecified tax;
+@property (nonatomic, strong) IBOutlet UILabel * __null_unspecified total;
+@property (nonatomic, strong) IBOutlet UIButton * __null_unspecified payButton;
 - (void)viewDidLoad;
+- (void)viewDidAppear:(BOOL)animated;
 - (void)didReceiveMemoryWarning;
+- (void)tappedPayButton;
+- (void)userDidCancelPayment;
+- (void)dropInViewController:(BTDropInViewController * __null_unspecified)viewController didSucceedWithPaymentMethod:(BTPaymentMethod * __null_unspecified)paymentMethod;
+- (void)dropInViewControllerDidCancel:(BTDropInViewController * __null_unspecified)viewController;
 - (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -171,7 +186,6 @@ SWIFT_CLASS("_TtC8snapshop18PageViewController")
 @class AVCaptureSession;
 @class AVCaptureVideoPreviewLayer;
 @class UIView;
-@class UIButton;
 @class NSDictionary;
 @class CNPPopupController;
 @class Firebase;

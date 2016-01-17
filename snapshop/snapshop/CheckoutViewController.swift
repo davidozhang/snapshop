@@ -13,7 +13,14 @@ class CheckoutViewController: UIViewController, BTDropInViewControllerDelegate {
 
     var braintree: Braintree?
 
+    @IBOutlet var subtotal: UILabel!
+    @IBOutlet var tax: UILabel!
+    @IBOutlet var total: UILabel!
     @IBOutlet var payButton: UIButton!
+    
+    
+    var shoppingCart: ShoppingCart = ShoppingCart.instance
+
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -36,6 +43,15 @@ class CheckoutViewController: UIViewController, BTDropInViewControllerDelegate {
             // Continue to the next section to learn more...
             }.resume()
         // Do any additional setup after loading the view.
+    }
+    
+    override func viewDidAppear(animated: Bool) {
+        let subtotalAmount: Double = shoppingCart.getSubtotal()
+        let taxAmount: Double = subtotalAmount * 0.13
+        let totalAmount: Double = subtotalAmount + taxAmount
+        subtotal.text = "$ " + String(format: "%.2f",subtotalAmount)
+        tax.text = "$ " + String(format: "%.2f",taxAmount)
+        total.text = "$ " + String(format: "%.2f",totalAmount)
     }
     
     override func didReceiveMemoryWarning() {
@@ -68,6 +84,9 @@ class CheckoutViewController: UIViewController, BTDropInViewControllerDelegate {
     func dropInViewController(viewController: BTDropInViewController!, didSucceedWithPaymentMethod paymentMethod: BTPaymentMethod!) {
         //postNonceToServer(paymentMethod.nonce) // Send payment method nonce to your server
         dismissViewControllerAnimated(true, completion: nil)
+        let sb = UIStoryboard(name: "Main", bundle: nil)
+        let thankYouController = sb.instantiateViewControllerWithIdentifier("thankYouViewController") as? ThankYouViewController
+        self.presentViewController(thankYouController!, animated: true, completion: nil)
     }
     
     func dropInViewControllerDidCancel(viewController: BTDropInViewController!) {
