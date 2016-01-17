@@ -12,7 +12,7 @@ class ViewController: UIViewController, AVCaptureMetadataOutputObjectsDelegate, 
     var checkout: UIButton = UIButton(type: .Custom)
     var data: NSDictionary = NSDictionary()
     var popupController: CNPPopupController?
-    var shoppingCart: ShoppingCart = ShoppingCart()
+    var shoppingCart: ShoppingCart = ShoppingCart.instance
     var dictionary: NSDictionary = NSDictionary()
     var pvc : PageViewController?
 
