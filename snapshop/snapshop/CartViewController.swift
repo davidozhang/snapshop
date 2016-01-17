@@ -21,9 +21,8 @@ class CartViewController: UIViewController, UITableViewDataSource, UITableViewDe
         let cell = tableView.dequeueReusableCellWithIdentifier("cartCell", forIndexPath: indexPath) as! CartTableViewCell
         
         let curItem = items[indexPath.row]
-        let curName = curItem.name
-        let curCount = curItem.count
-        cell.title.text = "\(curName) x \(curCount)"
+        cell.title.text = curItem.name
+        cell.quantity.text = String(curItem.name)
         cell.label.layer.cornerRadius = 20;
         cell.label.clipsToBounds = true
         cell.label.load(curItem.image as String)
