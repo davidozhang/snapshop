@@ -20,7 +20,7 @@ class ViewController: UIViewController, AVCaptureMetadataOutputObjectsDelegate, 
     func showScannedItems() {
         
     }
-    
+
     func addItem() {
         shoppingCart.insert(dictionary)
         self.popupController?.dismissPopupControllerAnimated(true)
@@ -35,6 +35,7 @@ class ViewController: UIViewController, AVCaptureMetadataOutputObjectsDelegate, 
     func showItemInfo() {
         let view: UIView = UIView(frame: CGRectMake(0, 0, 0, 0))
         let name: UILabel = UILabel()
+        let productImageView: UIImageView = UIImageView()
         name.textAlignment = .Center
         name.attributedText = NSAttributedString(string: dictionary["name"] as! String)
         let price: UILabel = UILabel()
@@ -52,7 +53,11 @@ class ViewController: UIViewController, AVCaptureMetadataOutputObjectsDelegate, 
         }
         checkmark.addTarget(self, action: "addItem", forControlEvents: UIControlEvents.TouchDown)
         cancel.addTarget(self, action: "cancelItemInfo", forControlEvents: UIControlEvents.TouchDown)
-        let productImageView: UIImageView = UIImageView()
+        if let url = NSURL(string: self.dictionary["image"] as! String) {
+            if let data = NSData(contentsOfURL: url) {
+                productImageView.image = UIImage(data: data)
+            }
+        }
         self.popupController = CNPPopupController(contents: [view, productImageView, name, price, checkmark, cancel])
         self.popupController!.delegate = self
         self.popupController?.presentPopupControllerAnimated(true)
@@ -179,6 +184,4 @@ class ViewController: UIViewController, AVCaptureMetadataOutputObjectsDelegate, 
         self.view.bringSubviewToFront(self.highlightView)
         
     }
-    
-    
 }
