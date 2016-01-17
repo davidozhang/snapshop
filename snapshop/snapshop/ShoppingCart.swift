@@ -10,7 +10,8 @@ import Foundation
 
 class ShoppingCart {
     var cart: Array<Item>
-
+    static let instance = ShoppingCart()
+    
     init() {
         cart = Array<Item>()
     }
