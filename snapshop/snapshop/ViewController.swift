@@ -12,11 +12,19 @@ class ViewController: UIViewController, AVCaptureMetadataOutputObjectsDelegate, 
     var checkout: UIButton = UIButton(type: .Custom)
     var data: NSDictionary = NSDictionary()
     var popupController: CNPPopupController?
-    
+    var shoppingCart: ShoppingCart = ShoppingCart()
+    var dictionary: NSDictionary = NSDictionary()
+
     let ref = Firebase(url: "https://snapshop.firebaseio.com")
     
     func showScannedItems() {
         
+    }
+    
+    func addItem() {
+        shoppingCart.insert(dictionary)
+        self.popupController?.dismissPopupControllerAnimated(true)
+        self.session.startRunning()
     }
     
     func cancelItemInfo() {
@@ -24,14 +32,14 @@ class ViewController: UIViewController, AVCaptureMetadataOutputObjectsDelegate, 
         self.session.startRunning()
     }
     
-    func showItemInfo(d: NSDictionary) {
+    func showItemInfo() {
         let view: UIView = UIView(frame: CGRectMake(0, 0, 0, 0))
         let name: UILabel = UILabel()
         name.textAlignment = .Center
-        name.attributedText = NSAttributedString(string: d["name"] as! String)
+        name.attributedText = NSAttributedString(string: dictionary["name"] as! String)
         let price: UILabel = UILabel()
         price.textAlignment = .Center
-        if let p = d["price"] {
+        if let p = dictionary["price"] {
             price.attributedText = NSAttributedString(string: "$ \(String(p))")
         }
         let checkmark: UIButton = UIButton(type: .Custom)
@@ -42,9 +50,9 @@ class ViewController: UIViewController, AVCaptureMetadataOutputObjectsDelegate, 
         if let image = UIImage(named: "Cancel.png") {
             cancel.setImage(image, forState: .Normal)
         }
+        checkmark.addTarget(self, action: "addItem", forControlEvents: UIControlEvents.TouchDown)
         cancel.addTarget(self, action: "cancelItemInfo", forControlEvents: UIControlEvents.TouchDown)
         let productImageView: UIImageView = UIImageView()
-        
         self.popupController = CNPPopupController(contents: [view, productImageView, name, price, checkmark, cancel])
         self.popupController!.delegate = self
         self.popupController?.presentPopupControllerAnimated(true)
@@ -160,7 +168,8 @@ class ViewController: UIViewController, AVCaptureMetadataOutputObjectsDelegate, 
                     
                     detectionString = (metadata as! AVMetadataMachineReadableCodeObject).stringValue
                     self.session.stopRunning()
-                    showItemInfo(self.data[detectionString] as! NSDictionary)
+                    self.dictionary = self.data[detectionString] as! NSDictionary
+                    showItemInfo()
                 }
                 
             }
