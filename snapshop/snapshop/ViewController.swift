@@ -1,8 +1,9 @@
 import UIKit
 import AVFoundation
+import CNPPopupController
 import Firebase
 
-class ViewController: UIViewController, AVCaptureMetadataOutputObjectsDelegate {
+class ViewController: UIViewController, AVCaptureMetadataOutputObjectsDelegate, CNPPopupControllerDelegate {
     
     let session: AVCaptureSession = AVCaptureSession()
     var previewLayer: AVCaptureVideoPreviewLayer!
@@ -10,11 +11,43 @@ class ViewController: UIViewController, AVCaptureMetadataOutputObjectsDelegate {
     var scannedItems: UIButton = UIButton(type: .Custom)
     var checkout: UIButton = UIButton(type: .Custom)
     var data: NSDictionary = NSDictionary()
+    var popupController: CNPPopupController?
     
     let ref = Firebase(url: "https://snapshop.firebaseio.com")
     
     func showScannedItems() {
         
+    }
+    
+    func cancelItemInfo() {
+        self.popupController?.dismissPopupControllerAnimated(true)
+        self.session.startRunning()
+    }
+    
+    func showItemInfo(d: NSDictionary) {
+        let view: UIView = UIView(frame: CGRectMake(0, 0, 0, 0))
+        let name: UILabel = UILabel()
+        name.textAlignment = .Center
+        name.attributedText = NSAttributedString(string: d["name"] as! String)
+        let price: UILabel = UILabel()
+        price.textAlignment = .Center
+        if let p = d["price"] {
+            price.attributedText = NSAttributedString(string: "$ \(String(p))")
+        }
+        let checkmark: UIButton = UIButton(type: .Custom)
+        if let image = UIImage(named: "Checkmark.png") {
+            checkmark.setImage(image, forState: .Normal)
+        }
+        let cancel: UIButton = UIButton(type: .Custom)
+        if let image = UIImage(named: "Cancel.png") {
+            cancel.setImage(image, forState: .Normal)
+        }
+        cancel.addTarget(self, action: "cancelItemInfo", forControlEvents: UIControlEvents.TouchDown)
+        let productImageView: UIImageView = UIImageView()
+        
+        self.popupController = CNPPopupController(contents: [view, productImageView, name, price, checkmark, cancel])
+        self.popupController!.delegate = self
+        self.popupController?.presentPopupControllerAnimated(true)
     }
     
     override func viewDidLoad() {
@@ -125,11 +158,9 @@ class ViewController: UIViewController, AVCaptureMetadataOutputObjectsDelegate {
                 if metadata.type == barcodeType {
                     barCodeObject = self.previewLayer.transformedMetadataObjectForMetadataObject(metadata as! AVMetadataMachineReadableCodeObject)
                     
-                    highlightViewRect = barCodeObject.bounds
-                    
                     detectionString = (metadata as! AVMetadataMachineReadableCodeObject).stringValue
-                    print (self.data[detectionString])
-                    //print(detectionString)
+                    self.session.stopRunning()
+                    showItemInfo(self.data[detectionString] as! NSDictionary)
                 }
                 
             }

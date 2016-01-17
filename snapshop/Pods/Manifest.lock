@@ -1,10 +1,13 @@
 PODS:
+  - CNPPopupController (0.3.1)
   - Firebase (2.5.0)
 
 DEPENDENCIES:
+  - CNPPopupController
   - Firebase (>= 2.5.0)
 
 SPEC CHECKSUMS:
+  CNPPopupController: 67dc2ca5a3f88cd49a27bb1b0aeb78a24d423d79
   Firebase: 744617c0733b45198f9486ebd5cac64ec2d10d79
 
 COCOAPODS: 0.39.0

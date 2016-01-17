@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '7E2DB012C743D13E9554A435'
-               BlueprintName = 'Firebase'
+               BlueprintIdentifier = '47F6D4F813A63FBB83B8E66D'
+               BlueprintName = 'CNPPopupController'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'Firebase.framework'>
+               BuildableName = 'CNPPopupController.framework'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
