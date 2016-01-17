@@ -22,7 +22,7 @@ class CartViewController: UIViewController, UITableViewDataSource, UITableViewDe
         
         let curItem = items[indexPath.row]
         cell.title.text = curItem.name
-        cell.quantity.text = String(curItem.name)
+        cell.quantity.text = String(curItem.count)
         cell.label.layer.cornerRadius = 20;
         cell.label.clipsToBounds = true
         cell.label.load(curItem.image as String)
