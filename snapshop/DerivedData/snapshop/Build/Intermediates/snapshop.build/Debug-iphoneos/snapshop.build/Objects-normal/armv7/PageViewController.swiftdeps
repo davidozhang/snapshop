@@ -1,0 +1,464 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PageViewController"
+provides-nominal:
+- "C8snapshop18PageViewController"
+provides-member:
+- ["C8snapshop18PageViewController", ""]
+provides-dynamic-lookup:
+- "showCart"
+- "loadControllers"
+- "cameraController"
+- "checkoutController"
+- "pageViewController"
+- "pageViewController"
+- "cartController"
+- "viewDidLoad"
+- "showCheckout"
+depends-top-level:
+- "UIPageViewController"
+- "CartViewController"
+- "PageViewController"
+- "UIPageViewControllerDataSource"
+- !private "BooleanLiteralType"
+- "CheckoutViewController"
+- !private "UIStoryboard"
+- "ViewController"
+- "UIViewController"
+- !private "Array"
+- !private "StringLiteralType"
+depends-member:
+- ["PSo38AVCaptureMetadataOutputObjectsDelegate", "init"]
+- !private ["PSs9AnyObject", "UIStoryboard"]
+- ["PSs9AnyObject", "ViewController"]
+- ["PSs9AnyObject", "cameraController"]
+- ["PSs9AnyObject", "cartController"]
+- ["PSs9AnyObject", "checkoutController"]
+- !private ["PSs9AnyObject", "dataSource"]
+- ["PSs9AnyObject", "init"]
+- !private ["PSs9AnyObject", "instantiateViewControllerWithIdentifier"]
+- ["PSs9AnyObject", "loadControllers"]
+- ["PSs9AnyObject", "pageViewController"]
+- ["PSs9AnyObject", "presentationCountForPageViewController"]
+- ["PSs9AnyObject", "presentationIndexForPageViewController"]
+- !private ["PSs9AnyObject", "setViewControllers"]
+- ["PSs9AnyObject", "showCart"]
+- ["PSs9AnyObject", "showCheckout"]
+- ["PSs9AnyObject", "viewDidLoad"]
+- ["PSs9AnyObject", ""]
+- !private ["Sa", "Element"]
+- !private ["PSs23ArrayLiteralConvertible", "Element"]
+- ["PSo26CNPPopupControllerDelegate", "init"]
+- !private ["PSs11CVarArgType", "UIStoryboard"]
+- ["PSs11CVarArgType", "ViewController"]
+- ["PSs11CVarArgType", "cameraController"]
+- ["PSs11CVarArgType", "cartController"]
+- ["PSs11CVarArgType", "checkoutController"]
+- !private ["PSs11CVarArgType", "dataSource"]
+- ["PSs11CVarArgType", "init"]
+- !private ["PSs11CVarArgType", "instantiateViewControllerWithIdentifier"]
+- ["PSs11CVarArgType", "loadControllers"]
+- ["PSs11CVarArgType", "pageViewController"]
+- ["PSs11CVarArgType", "presentationCountForPageViewController"]
+- ["PSs11CVarArgType", "presentationIndexForPageViewController"]
+- !private ["PSs11CVarArgType", "setViewControllers"]
+- ["PSs11CVarArgType", "showCart"]
+- ["PSs11CVarArgType", "showCheckout"]
+- ["PSs11CVarArgType", "viewDidLoad"]
+- ["PSs11CVarArgType", ""]
+- !private ["PSs14CollectionType", "Element"]
+- !private ["PSs28CustomDebugStringConvertible", "Element"]
+- ["PSs28CustomDebugStringConvertible", "Some"]
+- !private ["PSs23CustomStringConvertible", "Element"]
+- !private ["PSs23CustomStringConvertible", "UIStoryboard"]
+- ["PSs23CustomStringConvertible", "ViewController"]
+- ["PSs23CustomStringConvertible", "cameraController"]
+- ["PSs23CustomStringConvertible", "cartController"]
+- ["PSs23CustomStringConvertible", "checkoutController"]
+- !private ["PSs23CustomStringConvertible", "dataSource"]
+- ["PSs23CustomStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "instantiateViewControllerWithIdentifier"]
+- ["PSs23CustomStringConvertible", "loadControllers"]
+- ["PSs23CustomStringConvertible", "pageViewController"]
+- ["PSs23CustomStringConvertible", "presentationCountForPageViewController"]
+- ["PSs23CustomStringConvertible", "presentationIndexForPageViewController"]
+- !private ["PSs23CustomStringConvertible", "setViewControllers"]
+- ["PSs23CustomStringConvertible", "showCart"]
+- ["PSs23CustomStringConvertible", "showCheckout"]
+- ["PSs23CustomStringConvertible", "viewDidLoad"]
+- ["PSs23CustomStringConvertible", ""]
+- !private ["PSs9Equatable", "Forward"]
+- !private ["PSs9Equatable", "Reverse"]
+- !private ["PSs9Equatable", "UIStoryboard"]
+- ["PSs9Equatable", "ViewController"]
+- ["PSs9Equatable", "cameraController"]
+- ["PSs9Equatable", "cartController"]
+- ["PSs9Equatable", "checkoutController"]
+- !private ["PSs9Equatable", "dataSource"]
+- ["PSs9Equatable", "init"]
+- !private ["PSs9Equatable", "instantiateViewControllerWithIdentifier"]
+- ["PSs9Equatable", "loadControllers"]
+- ["PSs9Equatable", "pageViewController"]
+- ["PSs9Equatable", "presentationCountForPageViewController"]
+- ["PSs9Equatable", "presentationIndexForPageViewController"]
+- !private ["PSs9Equatable", "setViewControllers"]
+- ["PSs9Equatable", "showCart"]
+- ["PSs9Equatable", "showCheckout"]
+- ["PSs9Equatable", "viewDidLoad"]
+- ["PSs9Equatable", ""]
+- !private ["PSs8Hashable", "Forward"]
+- !private ["PSs8Hashable", "Reverse"]
+- !private ["PSs8Hashable", "UIStoryboard"]
+- ["PSs8Hashable", "ViewController"]
+- ["PSs8Hashable", "cameraController"]
+- ["PSs8Hashable", "cartController"]
+- ["PSs8Hashable", "checkoutController"]
+- !private ["PSs8Hashable", "dataSource"]
+- ["PSs8Hashable", "init"]
+- !private ["PSs8Hashable", "instantiateViewControllerWithIdentifier"]
+- ["PSs8Hashable", "loadControllers"]
+- ["PSs8Hashable", "pageViewController"]
+- ["PSs8Hashable", "presentationCountForPageViewController"]
+- ["PSs8Hashable", "presentationIndexForPageViewController"]
+- !private ["PSs8Hashable", "setViewControllers"]
+- ["PSs8Hashable", "showCart"]
+- ["PSs8Hashable", "showCheckout"]
+- ["PSs8Hashable", "viewDidLoad"]
+- ["PSs8Hashable", ""]
+- !private ["PSs9Indexable", "Element"]
+- !private ["PSs21MutableCollectionType", "Element"]
+- !private ["PSs16MutableIndexable", "Element"]
+- !private ["PSs16MutableSliceable", "Element"]
+- !private ["PSo8NSCoding", "UIStoryboard"]
+- ["PSo8NSCoding", "ViewController"]
+- ["PSo8NSCoding", "cameraController"]
+- ["PSo8NSCoding", "cartController"]
+- ["PSo8NSCoding", "checkoutController"]
+- !private ["PSo8NSCoding", "dataSource"]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "loadControllers"]
+- ["PSo8NSCoding", "pageViewController"]
+- ["PSo8NSCoding", "presentationCountForPageViewController"]
+- ["PSo8NSCoding", "presentationIndexForPageViewController"]
+- !private ["PSo8NSCoding", "setViewControllers"]
+- ["PSo8NSCoding", "showCart"]
+- ["PSo8NSCoding", "showCheckout"]
+- ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo26NSExtensionRequestHandling", "UIStoryboard"]
+- ["PSo26NSExtensionRequestHandling", "ViewController"]
+- ["PSo26NSExtensionRequestHandling", "cameraController"]
+- ["PSo26NSExtensionRequestHandling", "cartController"]
+- ["PSo26NSExtensionRequestHandling", "checkoutController"]
+- !private ["PSo26NSExtensionRequestHandling", "dataSource"]
+- ["PSo26NSExtensionRequestHandling", "init"]
+- ["PSo26NSExtensionRequestHandling", "loadControllers"]
+- ["PSo26NSExtensionRequestHandling", "pageViewController"]
+- ["PSo26NSExtensionRequestHandling", "presentationCountForPageViewController"]
+- ["PSo26NSExtensionRequestHandling", "presentationIndexForPageViewController"]
+- !private ["PSo26NSExtensionRequestHandling", "setViewControllers"]
+- ["PSo26NSExtensionRequestHandling", "showCart"]
+- ["PSo26NSExtensionRequestHandling", "showCheckout"]
+- ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- ["CSo8NSObject", "CartViewController"]
+- ["CSo8NSObject", "CheckoutViewController"]
+- ["CSo8NSObject", "UIPageViewController"]
+- !private ["CSo8NSObject", "UIStoryboard"]
+- ["CSo8NSObject", "UIViewController"]
+- ["CSo8NSObject", "ViewController"]
+- ["CSo8NSObject", "cameraController"]
+- ["CSo8NSObject", "cartController"]
+- ["CSo8NSObject", "checkoutController"]
+- !private ["CSo8NSObject", "dataSource"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "instantiateViewControllerWithIdentifier"]
+- ["CSo8NSObject", "loadControllers"]
+- ["CSo8NSObject", "pageViewController"]
+- ["CSo8NSObject", "presentationCountForPageViewController"]
+- ["CSo8NSObject", "presentationIndexForPageViewController"]
+- !private ["CSo8NSObject", "setViewControllers"]
+- ["CSo8NSObject", "showCart"]
+- ["CSo8NSObject", "showCheckout"]
+- ["CSo8NSObject", "viewDidLoad"]
+- !private ["PSo16NSObjectProtocol", "UIStoryboard"]
+- ["PSo16NSObjectProtocol", "ViewController"]
+- ["PSo16NSObjectProtocol", "cameraController"]
+- ["PSo16NSObjectProtocol", "cartController"]
+- ["PSo16NSObjectProtocol", "checkoutController"]
+- !private ["PSo16NSObjectProtocol", "dataSource"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "instantiateViewControllerWithIdentifier"]
+- ["PSo16NSObjectProtocol", "loadControllers"]
+- ["PSo16NSObjectProtocol", "pageViewController"]
+- ["PSo16NSObjectProtocol", "presentationCountForPageViewController"]
+- ["PSo16NSObjectProtocol", "presentationIndexForPageViewController"]
+- !private ["PSo16NSObjectProtocol", "setViewControllers"]
+- ["PSo16NSObjectProtocol", "showCart"]
+- ["PSo16NSObjectProtocol", "showCheckout"]
+- ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", ""]
+- ["PSs21NilLiteralConvertible", "Some"]
+- ["Sq", "Some"]
+- !private ["Sq", "deinit"]
+- ["C8snapshop18PageViewController", "CartViewController"]
+- ["C8snapshop18PageViewController", "CheckoutViewController"]
+- ["C8snapshop18PageViewController", "UIPageViewController"]
+- !private ["C8snapshop18PageViewController", "UIStoryboard"]
+- ["C8snapshop18PageViewController", "UIViewController"]
+- ["C8snapshop18PageViewController", "ViewController"]
+- ["C8snapshop18PageViewController", "cameraController"]
+- ["C8snapshop18PageViewController", "cartController"]
+- ["C8snapshop18PageViewController", "checkoutController"]
+- !private ["C8snapshop18PageViewController", "dataSource"]
+- ["C8snapshop18PageViewController", "deinit"]
+- ["C8snapshop18PageViewController", "init"]
+- ["C8snapshop18PageViewController", "loadControllers"]
+- ["C8snapshop18PageViewController", "pageViewController"]
+- ["C8snapshop18PageViewController", "presentationCountForPageViewController"]
+- ["C8snapshop18PageViewController", "presentationIndexForPageViewController"]
+- !private ["C8snapshop18PageViewController", "setViewControllers"]
+- ["C8snapshop18PageViewController", "showCart"]
+- ["C8snapshop18PageViewController", "showCheckout"]
+- ["C8snapshop18PageViewController", "viewDidLoad"]
+- !private ["PSs30RangeReplaceableCollectionType", "Element"]
+- !private ["PSs16RawRepresentable", "Forward"]
+- !private ["PSs16RawRepresentable", "Reverse"]
+- !private ["PSs12SequenceType", "Element"]
+- !private ["PSo21UIAppearanceContainer", "UIStoryboard"]
+- ["PSo21UIAppearanceContainer", "ViewController"]
+- ["PSo21UIAppearanceContainer", "cameraController"]
+- ["PSo21UIAppearanceContainer", "cartController"]
+- ["PSo21UIAppearanceContainer", "checkoutController"]
+- !private ["PSo21UIAppearanceContainer", "dataSource"]
+- ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "loadControllers"]
+- ["PSo21UIAppearanceContainer", "pageViewController"]
+- ["PSo21UIAppearanceContainer", "presentationCountForPageViewController"]
+- ["PSo21UIAppearanceContainer", "presentationIndexForPageViewController"]
+- !private ["PSo21UIAppearanceContainer", "setViewControllers"]
+- ["PSo21UIAppearanceContainer", "showCart"]
+- ["PSo21UIAppearanceContainer", "showCheckout"]
+- ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["PSo18UIContentContainer", "UIStoryboard"]
+- ["PSo18UIContentContainer", "ViewController"]
+- ["PSo18UIContentContainer", "cameraController"]
+- ["PSo18UIContentContainer", "cartController"]
+- ["PSo18UIContentContainer", "checkoutController"]
+- !private ["PSo18UIContentContainer", "dataSource"]
+- ["PSo18UIContentContainer", "init"]
+- ["PSo18UIContentContainer", "loadControllers"]
+- ["PSo18UIContentContainer", "pageViewController"]
+- ["PSo18UIContentContainer", "presentationCountForPageViewController"]
+- ["PSo18UIContentContainer", "presentationIndexForPageViewController"]
+- !private ["PSo18UIContentContainer", "setViewControllers"]
+- ["PSo18UIContentContainer", "showCart"]
+- ["PSo18UIContentContainer", "showCheckout"]
+- ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", ""]
+- !private ["PSo18UIFocusEnvironment", "UIStoryboard"]
+- ["PSo18UIFocusEnvironment", "ViewController"]
+- ["PSo18UIFocusEnvironment", "cameraController"]
+- ["PSo18UIFocusEnvironment", "cartController"]
+- ["PSo18UIFocusEnvironment", "checkoutController"]
+- !private ["PSo18UIFocusEnvironment", "dataSource"]
+- ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "loadControllers"]
+- ["PSo18UIFocusEnvironment", "pageViewController"]
+- ["PSo18UIFocusEnvironment", "presentationCountForPageViewController"]
+- ["PSo18UIFocusEnvironment", "presentationIndexForPageViewController"]
+- !private ["PSo18UIFocusEnvironment", "setViewControllers"]
+- ["PSo18UIFocusEnvironment", "showCart"]
+- ["PSo18UIFocusEnvironment", "showCheckout"]
+- ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", ""]
+- ["CSo20UIPageViewController", "CartViewController"]
+- ["CSo20UIPageViewController", "CheckoutViewController"]
+- ["CSo20UIPageViewController", "UIPageViewController"]
+- !private ["CSo20UIPageViewController", "UIStoryboard"]
+- ["CSo20UIPageViewController", "UIViewController"]
+- ["CSo20UIPageViewController", "ViewController"]
+- ["CSo20UIPageViewController", "cameraController"]
+- ["CSo20UIPageViewController", "cartController"]
+- ["CSo20UIPageViewController", "checkoutController"]
+- !private ["CSo20UIPageViewController", "dataSource"]
+- ["CSo20UIPageViewController", "init"]
+- ["CSo20UIPageViewController", "loadControllers"]
+- ["CSo20UIPageViewController", "pageViewController"]
+- ["CSo20UIPageViewController", "presentationCountForPageViewController"]
+- ["CSo20UIPageViewController", "presentationIndexForPageViewController"]
+- !private ["CSo20UIPageViewController", "setViewControllers"]
+- ["CSo20UIPageViewController", "showCart"]
+- ["CSo20UIPageViewController", "showCheckout"]
+- ["CSo20UIPageViewController", "viewDidLoad"]
+- ["CSo20UIPageViewController", ""]
+- !private ["PSo30UIPageViewControllerDataSource", "UIStoryboard"]
+- ["PSo30UIPageViewControllerDataSource", "ViewController"]
+- !private ["PSo30UIPageViewControllerDataSource", "cameraController"]
+- !private ["PSo30UIPageViewControllerDataSource", "cartController"]
+- !private ["PSo30UIPageViewControllerDataSource", "checkoutController"]
+- !private ["PSo30UIPageViewControllerDataSource", "dataSource"]
+- !private ["PSo30UIPageViewControllerDataSource", "loadControllers"]
+- ["PSo30UIPageViewControllerDataSource", "pageViewController"]
+- ["PSo30UIPageViewControllerDataSource", "presentationCountForPageViewController"]
+- ["PSo30UIPageViewControllerDataSource", "presentationIndexForPageViewController"]
+- !private ["PSo30UIPageViewControllerDataSource", "setViewControllers"]
+- ["PSo30UIPageViewControllerDataSource", ""]
+- !private ["OSC39UIPageViewControllerNavigationDirection", "Forward"]
+- !private ["OSC39UIPageViewControllerNavigationDirection", "Reverse"]
+- ["CSo11UIResponder", "CartViewController"]
+- ["CSo11UIResponder", "CheckoutViewController"]
+- ["CSo11UIResponder", "UIPageViewController"]
+- !private ["CSo11UIResponder", "UIStoryboard"]
+- ["CSo11UIResponder", "UIViewController"]
+- ["CSo11UIResponder", "ViewController"]
+- ["CSo11UIResponder", "cameraController"]
+- ["CSo11UIResponder", "cartController"]
+- ["CSo11UIResponder", "checkoutController"]
+- !private ["CSo11UIResponder", "dataSource"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "loadControllers"]
+- ["CSo11UIResponder", "pageViewController"]
+- ["CSo11UIResponder", "presentationCountForPageViewController"]
+- ["CSo11UIResponder", "presentationIndexForPageViewController"]
+- !private ["CSo11UIResponder", "setViewControllers"]
+- ["CSo11UIResponder", "showCart"]
+- ["CSo11UIResponder", "showCheckout"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- !private ["PSo16UIStateRestoring", "UIStoryboard"]
+- ["PSo16UIStateRestoring", "ViewController"]
+- ["PSo16UIStateRestoring", "cameraController"]
+- ["PSo16UIStateRestoring", "cartController"]
+- ["PSo16UIStateRestoring", "checkoutController"]
+- !private ["PSo16UIStateRestoring", "dataSource"]
+- ["PSo16UIStateRestoring", "init"]
+- ["PSo16UIStateRestoring", "loadControllers"]
+- ["PSo16UIStateRestoring", "pageViewController"]
+- ["PSo16UIStateRestoring", "presentationCountForPageViewController"]
+- ["PSo16UIStateRestoring", "presentationIndexForPageViewController"]
+- !private ["PSo16UIStateRestoring", "setViewControllers"]
+- ["PSo16UIStateRestoring", "showCart"]
+- ["PSo16UIStateRestoring", "showCheckout"]
+- ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["CSo12UIStoryboard", "init"]
+- !private ["CSo12UIStoryboard", "instantiateViewControllerWithIdentifier"]
+- !private ["PSo18UITraitEnvironment", "UIStoryboard"]
+- ["PSo18UITraitEnvironment", "ViewController"]
+- ["PSo18UITraitEnvironment", "cameraController"]
+- ["PSo18UITraitEnvironment", "cartController"]
+- ["PSo18UITraitEnvironment", "checkoutController"]
+- !private ["PSo18UITraitEnvironment", "dataSource"]
+- ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "loadControllers"]
+- ["PSo18UITraitEnvironment", "pageViewController"]
+- ["PSo18UITraitEnvironment", "presentationCountForPageViewController"]
+- ["PSo18UITraitEnvironment", "presentationIndexForPageViewController"]
+- !private ["PSo18UITraitEnvironment", "setViewControllers"]
+- ["PSo18UITraitEnvironment", "showCart"]
+- ["PSo18UITraitEnvironment", "showCheckout"]
+- ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo16UIViewController", "CartViewController"]
+- ["CSo16UIViewController", "CheckoutViewController"]
+- ["CSo16UIViewController", "UIPageViewController"]
+- !private ["CSo16UIViewController", "UIStoryboard"]
+- ["CSo16UIViewController", "UIViewController"]
+- ["CSo16UIViewController", "ViewController"]
+- ["CSo16UIViewController", "cameraController"]
+- ["CSo16UIViewController", "cartController"]
+- ["CSo16UIViewController", "checkoutController"]
+- !private ["CSo16UIViewController", "dataSource"]
+- !private ["CSo16UIViewController", "deinit"]
+- ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", "loadControllers"]
+- ["CSo16UIViewController", "pageViewController"]
+- ["CSo16UIViewController", "presentationCountForPageViewController"]
+- ["CSo16UIViewController", "presentationIndexForPageViewController"]
+- !private ["CSo16UIViewController", "setViewControllers"]
+- ["CSo16UIViewController", "showCart"]
+- ["CSo16UIViewController", "showCheckout"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["C8snapshop14ViewController", "init"]
+- !private ["PSs10_ArrayType", "Element"]
+- !private ["PSs24_DestructorSafeContainer", "Element"]
+- !private ["PSs21_ObjectiveCBridgeable", "Element"]
+- !private ["PSs12_Reflectable", "Element"]
+- ["PSs12_Reflectable", "Some"]
+depends-nominal:
+- "PSo38AVCaptureMetadataOutputObjectsDelegate"
+- "PSs9AnyObject"
+- !private "Sa"
+- !private "PSs23ArrayLiteralConvertible"
+- "PSo26CNPPopupControllerDelegate"
+- "PSs11CVarArgType"
+- !private "PSs14CollectionType"
+- "PSs28CustomDebugStringConvertible"
+- "PSs23CustomStringConvertible"
+- "PSs9Equatable"
+- "PSs8Hashable"
+- !private "PSs9Indexable"
+- !private "PSs21MutableCollectionType"
+- !private "PSs16MutableIndexable"
+- !private "PSs16MutableSliceable"
+- "PSo8NSCoding"
+- "PSo26NSExtensionRequestHandling"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSs21NilLiteralConvertible"
+- "Sq"
+- "C8snapshop18PageViewController"
+- !private "PSs30RangeReplaceableCollectionType"
+- !private "PSs16RawRepresentable"
+- !private "PSs12SequenceType"
+- "PSo21UIAppearanceContainer"
+- "PSo18UIContentContainer"
+- "PSo18UIFocusEnvironment"
+- "CSo20UIPageViewController"
+- "PSo30UIPageViewControllerDataSource"
+- !private "OSC39UIPageViewControllerNavigationDirection"
+- "CSo11UIResponder"
+- "PSo16UIStateRestoring"
+- !private "CSo12UIStoryboard"
+- "PSo18UITraitEnvironment"
+- "CSo16UIViewController"
+- "C8snapshop14ViewController"
+- !private "PSs10_ArrayType"
+- !private "PSs24_DestructorSafeContainer"
+- !private "PSs21_ObjectiveCBridgeable"
+- "PSs12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreAudio.swiftmodule"
+- "/Users/david/github/snapshop/snapshop/DerivedData/snapshop/Build/Products/Debug-iphoneos/CNPPopupController.framework/Headers/CNPPopupController.h"
+- "/Users/david/github/snapshop/snapshop/DerivedData/snapshop/Build/Products/Debug-iphoneos/CNPPopupController.framework/Headers/CNPPopupController-umbrella.h"
+- "/Users/david/github/snapshop/snapshop/DerivedData/snapshop/Build/Products/Debug-iphoneos/CNPPopupController.framework/Modules/module.modulemap"
+- "/Users/david/github/snapshop/snapshop/DerivedData/snapshop/Build/Products/Debug-iphoneos/Firebase.framework/Headers/FirebaseServerValue.h"
+- "/Users/david/github/snapshop/snapshop/DerivedData/snapshop/Build/Products/Debug-iphoneos/Firebase.framework/Headers/FTransactionResult.h"
+- "/Users/david/github/snapshop/snapshop/DerivedData/snapshop/Build/Products/Debug-iphoneos/Firebase.framework/Headers/FMutableData.h"
+- "/Users/david/github/snapshop/snapshop/DerivedData/snapshop/Build/Products/Debug-iphoneos/Firebase.framework/Headers/FirebaseApp.h"
+- "/Users/david/github/snapshop/snapshop/DerivedData/snapshop/Build/Products/Debug-iphoneos/Firebase.framework/Headers/FQuery.h"
+- "/Users/david/github/snapshop/snapshop/DerivedData/snapshop/Build/Products/Debug-iphoneos/Firebase.framework/Headers/Firebase.h"
+- "/Users/david/github/snapshop/snapshop/DerivedData/snapshop/Build/Products/Debug-iphoneos/Firebase.framework/Headers/FEventType.h"
+- "/Users/david/github/snapshop/snapshop/DerivedData/snapshop/Build/Products/Debug-iphoneos/Firebase.framework/Headers/FDataSnapshot.h"
+- "/Users/david/github/snapshop/snapshop/DerivedData/snapshop/Build/Products/Debug-iphoneos/Firebase.framework/Headers/FConfig.h"
+- "/Users/david/github/snapshop/snapshop/DerivedData/snapshop/Build/Products/Debug-iphoneos/Firebase.framework/Headers/FAuthType.h"
+- "/Users/david/github/snapshop/snapshop/DerivedData/snapshop/Build/Products/Debug-iphoneos/Firebase.framework/Headers/FAuthData.h"
+- "/Users/david/github/snapshop/snapshop/DerivedData/snapshop/Build/Products/Debug-iphoneos/Firebase.framework/Headers/Firebase-umbrella.h"
+- "/Users/david/github/snapshop/snapshop/DerivedData/snapshop/Build/Products/Debug-iphoneos/Firebase.framework/Modules/module.modulemap"
+- "/Users/david/github/snapshop/snapshop/DerivedData/snapshop/Build/Products/Debug-iphoneos/ImageLoader.framework/Modules/ImageLoader.swiftmodule/arm.swiftmodule"
+- "/Users/david/github/snapshop/snapshop/DerivedData/snapshop/Build/Products/Debug-iphoneos/ImageLoader.framework/Headers/ImageLoader-Swift.h"
+- "/Users/david/github/snapshop/snapshop/DerivedData/snapshop/Build/Products/Debug-iphoneos/ImageLoader.framework/Headers/ImageLoader-umbrella.h"
+- "/Users/david/github/snapshop/snapshop/DerivedData/snapshop/Build/Products/Debug-iphoneos/ImageLoader.framework/Modules/module.modulemap"
+interface-hash: "c111591530c557e131555e412f218127"

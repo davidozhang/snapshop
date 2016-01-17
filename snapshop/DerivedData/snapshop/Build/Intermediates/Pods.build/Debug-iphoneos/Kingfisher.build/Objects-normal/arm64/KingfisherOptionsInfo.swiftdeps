@@ -1,0 +1,123 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "KingfisherOptionsInfo"
+- "KingfisherOptionsInfoItem"
+- "<=="
+- "<=="
+provides-nominal:
+- "O10Kingfisher25KingfisherOptionsInfoItem"
+provides-member:
+- ["O10Kingfisher25KingfisherOptionsInfoItem", ""]
+- ["PSs14CollectionType", ""]
+- ["PSs14CollectionType", "kf_firstMatchIgnoringAssociatedValue"]
+provides-dynamic-lookup:
+depends-top-level:
+- "ImageDownloader"
+- "CollectionType"
+- "KingfisherOptions"
+- "<=="
+- "Bool"
+- "KingfisherOptionsInfo"
+- !private "BooleanLiteralType"
+- "ImageCache"
+- "ImageTransition"
+- "KingfisherOptionsInfoItem"
+depends-member:
+- !private ["PSs21BitwiseOperationsType", "IntegerLiteralType"]
+- ["PSs14CollectionType", "Generator"]
+- !private ["PSs14CollectionType", "Index"]
+- ["PSs14CollectionType", "KingfisherOptionsInfoItem"]
+- !private ["PSs14CollectionType", "SubSequence"]
+- !private ["PSs14CollectionType", "_Element"]
+- !private ["PSs14CollectionType", "indexOf"]
+- ["PSs14CollectionType", "kf_firstMatchIgnoringAssociatedValue"]
+- !private ["PSs14CollectionType", "subscript"]
+- !private ["PSs10Comparable", "IntegerLiteralType"]
+- !private ["PSs28CustomDebugStringConvertible", "flatMap"]
+- !private ["PSs23CustomStringConvertible", "IntegerLiteralType"]
+- !private ["PSs9Equatable", "Distance"]
+- !private ["PSs9Equatable", "IntegerLiteralType"]
+- !private ["PSs16ForwardIndexType", "Distance"]
+- ["PSs13GeneratorType", "Element"]
+- !private ["PSs8Hashable", "IntegerLiteralType"]
+- ["PSs9Indexable", "Generator"]
+- !private ["PSs9Indexable", "Index"]
+- ["PSs9Indexable", "KingfisherOptionsInfoItem"]
+- !private ["PSs9Indexable", "SubSequence"]
+- !private ["PSs9Indexable", "_Element"]
+- !private ["PSs9Indexable", "indexOf"]
+- !private ["PSs9Indexable", "subscript"]
+- !private ["VSs17IndexingGenerator", "Element"]
+- !private ["PSs21IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["PSs25IntegerLiteralConvertible", "IntegerLiteralType"]
+- ["O10Kingfisher25KingfisherOptionsInfoItem", "Downloader"]
+- ["O10Kingfisher25KingfisherOptionsInfoItem", "ImageCache"]
+- ["O10Kingfisher25KingfisherOptionsInfoItem", "ImageDownloader"]
+- ["O10Kingfisher25KingfisherOptionsInfoItem", "ImageTransition"]
+- ["O10Kingfisher25KingfisherOptionsInfoItem", "KingfisherOptions"]
+- ["O10Kingfisher25KingfisherOptionsInfoItem", "Options"]
+- ["O10Kingfisher25KingfisherOptionsInfoItem", "TargetCache"]
+- ["O10Kingfisher25KingfisherOptionsInfoItem", "Transition"]
+- !private ["O10Kingfisher25KingfisherOptionsInfoItem", "deinit"]
+- !private ["PSs21NilLiteralConvertible", "flatMap"]
+- !private ["Sq", "flatMap"]
+- !private ["PSs12SequenceType", "Element"]
+- ["PSs12SequenceType", "Generator"]
+- !private ["PSs12SequenceType", "Index"]
+- ["PSs12SequenceType", "KingfisherOptionsInfoItem"]
+- !private ["PSs12SequenceType", "SubSequence"]
+- !private ["PSs12SequenceType", "_Element"]
+- !private ["PSs12SequenceType", "indexOf"]
+- !private ["PSs12SequenceType", "subscript"]
+- !private ["PSs16SignedNumberType", "IntegerLiteralType"]
+- !private ["VSs5Slice", "Generator"]
+- !private ["VSs5Slice", "Index"]
+- !private ["VSs5Slice", "SubSequence"]
+- !private ["VSs5Slice", "_Element"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["PSs14_Incrementable", "Distance"]
+- !private ["PSs14_Incrementable", "IntegerLiteralType"]
+- !private ["PSs22_IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["PSs12_IntegerType", "IntegerLiteralType"]
+- !private ["PSs12_Reflectable", "flatMap"]
+- !private ["PSs18_SignedIntegerType", "IntegerLiteralType"]
+depends-nominal:
+- !private "PSs21BitwiseOperationsType"
+- "PSs14CollectionType"
+- !private "PSs10Comparable"
+- !private "PSs28CustomDebugStringConvertible"
+- !private "PSs23CustomStringConvertible"
+- !private "PSs9Equatable"
+- !private "PSs16ForwardIndexType"
+- "PSs13GeneratorType"
+- !private "PSs8Hashable"
+- "PSs9Indexable"
+- !private "VSs17IndexingGenerator"
+- !private "PSs21IntegerArithmeticType"
+- !private "PSs25IntegerLiteralConvertible"
+- "O10Kingfisher25KingfisherOptionsInfoItem"
+- !private "PSs21NilLiteralConvertible"
+- !private "Sq"
+- "PSs12SequenceType"
+- !private "PSs16SignedNumberType"
+- !private "VSs5Slice"
+- !private "PSs33_BuiltinIntegerLiteralConvertible"
+- !private "PSs14_Incrementable"
+- !private "PSs22_IntegerArithmeticType"
+- !private "PSs12_IntegerType"
+- !private "PSs12_Reflectable"
+- !private "PSs18_SignedIntegerType"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/david/github/snapshop/snapshop/Pods/Kingfisher/Kingfisher/Kingfisher.h"
+- "/Users/david/github/snapshop/snapshop/Pods/Target Support Files/Kingfisher/Kingfisher-umbrella.h"
+- "/Users/david/github/snapshop/snapshop/DerivedData/snapshop/Build/Intermediates/Pods.build/Debug-iphoneos/Kingfisher.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+interface-hash: "5d33fe0fba3538789e07945ebd0c72d7"

@@ -1,0 +1,180 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "KingfisherOptions"
+provides-nominal:
+- "V10Kingfisher17KingfisherOptions"
+provides-member:
+- ["V10Kingfisher17KingfisherOptions", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "<<"
+- "KingfisherOptions"
+- "=="
+- "OptionSetType"
+- "UInt"
+depends-member:
+- ["PSs23ArrayLiteralConvertible", "Element"]
+- ["PSs23ArrayLiteralConvertible", "KingfisherOptions"]
+- ["PSs23ArrayLiteralConvertible", "RawValue"]
+- ["PSs23ArrayLiteralConvertible", "contains"]
+- ["PSs23ArrayLiteralConvertible", "element"]
+- ["PSs23ArrayLiteralConvertible", "exclusiveOr"]
+- ["PSs23ArrayLiteralConvertible", "exclusiveOrInPlace"]
+- ["PSs23ArrayLiteralConvertible", "init"]
+- ["PSs23ArrayLiteralConvertible", "insert"]
+- ["PSs23ArrayLiteralConvertible", "intersect"]
+- ["PSs23ArrayLiteralConvertible", "intersectInPlace"]
+- ["PSs23ArrayLiteralConvertible", "isDisjointWith"]
+- ["PSs23ArrayLiteralConvertible", "isEmpty"]
+- ["PSs23ArrayLiteralConvertible", "isSubsetOf"]
+- ["PSs23ArrayLiteralConvertible", "isSupersetOf"]
+- ["PSs23ArrayLiteralConvertible", "rawValue"]
+- ["PSs23ArrayLiteralConvertible", "remove"]
+- ["PSs23ArrayLiteralConvertible", "subtract"]
+- ["PSs23ArrayLiteralConvertible", "subtractInPlace"]
+- ["PSs23ArrayLiteralConvertible", "union"]
+- ["PSs23ArrayLiteralConvertible", "unionInPlace"]
+- ["PSs23ArrayLiteralConvertible", ""]
+- ["PSs9Equatable", "Element"]
+- ["PSs9Equatable", "KingfisherOptions"]
+- ["PSs9Equatable", "RawValue"]
+- ["PSs9Equatable", "contains"]
+- ["PSs9Equatable", "element"]
+- ["PSs9Equatable", "exclusiveOr"]
+- ["PSs9Equatable", "exclusiveOrInPlace"]
+- ["PSs9Equatable", "init"]
+- ["PSs9Equatable", "insert"]
+- ["PSs9Equatable", "intersect"]
+- ["PSs9Equatable", "intersectInPlace"]
+- ["PSs9Equatable", "isDisjointWith"]
+- ["PSs9Equatable", "isEmpty"]
+- ["PSs9Equatable", "isSubsetOf"]
+- ["PSs9Equatable", "isSupersetOf"]
+- ["PSs9Equatable", "rawValue"]
+- ["PSs9Equatable", "remove"]
+- ["PSs9Equatable", "subtract"]
+- ["PSs9Equatable", "subtractInPlace"]
+- ["PSs9Equatable", "union"]
+- ["PSs9Equatable", "unionInPlace"]
+- ["PSs9Equatable", ""]
+- ["PSs13GeneratorType", "Element"]
+- ["V10Kingfisher17KingfisherOptions", "BackgroundCallback"]
+- ["V10Kingfisher17KingfisherOptions", "BackgroundDecode"]
+- ["V10Kingfisher17KingfisherOptions", "CacheMemoryOnly"]
+- ["V10Kingfisher17KingfisherOptions", "Element"]
+- ["V10Kingfisher17KingfisherOptions", "ForceRefresh"]
+- ["V10Kingfisher17KingfisherOptions", "KingfisherOptions"]
+- ["V10Kingfisher17KingfisherOptions", "LowPriority"]
+- ["V10Kingfisher17KingfisherOptions", "None"]
+- ["V10Kingfisher17KingfisherOptions", "RawValue"]
+- ["V10Kingfisher17KingfisherOptions", "ScreenScale"]
+- ["V10Kingfisher17KingfisherOptions", "UInt"]
+- ["V10Kingfisher17KingfisherOptions", "contains"]
+- ["V10Kingfisher17KingfisherOptions", "deinit"]
+- ["V10Kingfisher17KingfisherOptions", "element"]
+- ["V10Kingfisher17KingfisherOptions", "exclusiveOr"]
+- ["V10Kingfisher17KingfisherOptions", "exclusiveOrInPlace"]
+- ["V10Kingfisher17KingfisherOptions", "init"]
+- ["V10Kingfisher17KingfisherOptions", "insert"]
+- ["V10Kingfisher17KingfisherOptions", "intersect"]
+- ["V10Kingfisher17KingfisherOptions", "intersectInPlace"]
+- ["V10Kingfisher17KingfisherOptions", "isDisjointWith"]
+- ["V10Kingfisher17KingfisherOptions", "isEmpty"]
+- ["V10Kingfisher17KingfisherOptions", "isSubsetOf"]
+- ["V10Kingfisher17KingfisherOptions", "isSupersetOf"]
+- ["V10Kingfisher17KingfisherOptions", "rawValue"]
+- ["V10Kingfisher17KingfisherOptions", "remove"]
+- ["V10Kingfisher17KingfisherOptions", "subtract"]
+- ["V10Kingfisher17KingfisherOptions", "subtractInPlace"]
+- ["V10Kingfisher17KingfisherOptions", "union"]
+- ["V10Kingfisher17KingfisherOptions", "unionInPlace"]
+- ["PSs13OptionSetType", "Element"]
+- ["PSs13OptionSetType", "KingfisherOptions"]
+- ["PSs13OptionSetType", "RawValue"]
+- ["PSs13OptionSetType", "contains"]
+- ["PSs13OptionSetType", "element"]
+- ["PSs13OptionSetType", "exclusiveOr"]
+- ["PSs13OptionSetType", "exclusiveOrInPlace"]
+- ["PSs13OptionSetType", "init"]
+- ["PSs13OptionSetType", "insert"]
+- ["PSs13OptionSetType", "intersect"]
+- ["PSs13OptionSetType", "intersectInPlace"]
+- ["PSs13OptionSetType", "isDisjointWith"]
+- ["PSs13OptionSetType", "isEmpty"]
+- ["PSs13OptionSetType", "isSubsetOf"]
+- ["PSs13OptionSetType", "isSupersetOf"]
+- ["PSs13OptionSetType", "rawValue"]
+- ["PSs13OptionSetType", "remove"]
+- ["PSs13OptionSetType", "subtract"]
+- ["PSs13OptionSetType", "subtractInPlace"]
+- ["PSs13OptionSetType", "union"]
+- ["PSs13OptionSetType", "unionInPlace"]
+- ["PSs13OptionSetType", ""]
+- ["PSs16RawRepresentable", "Element"]
+- ["PSs16RawRepresentable", "KingfisherOptions"]
+- ["PSs16RawRepresentable", "RawValue"]
+- ["PSs16RawRepresentable", "contains"]
+- ["PSs16RawRepresentable", "element"]
+- ["PSs16RawRepresentable", "exclusiveOr"]
+- ["PSs16RawRepresentable", "exclusiveOrInPlace"]
+- ["PSs16RawRepresentable", "init"]
+- ["PSs16RawRepresentable", "insert"]
+- ["PSs16RawRepresentable", "intersect"]
+- ["PSs16RawRepresentable", "intersectInPlace"]
+- ["PSs16RawRepresentable", "isDisjointWith"]
+- ["PSs16RawRepresentable", "isEmpty"]
+- ["PSs16RawRepresentable", "isSubsetOf"]
+- ["PSs16RawRepresentable", "isSupersetOf"]
+- ["PSs16RawRepresentable", "rawValue"]
+- ["PSs16RawRepresentable", "remove"]
+- ["PSs16RawRepresentable", "subtract"]
+- ["PSs16RawRepresentable", "subtractInPlace"]
+- ["PSs16RawRepresentable", "union"]
+- ["PSs16RawRepresentable", "unionInPlace"]
+- ["PSs16RawRepresentable", ""]
+- ["PSs12SequenceType", "Generator"]
+- ["PSs14SetAlgebraType", "Element"]
+- ["PSs14SetAlgebraType", "KingfisherOptions"]
+- ["PSs14SetAlgebraType", "RawValue"]
+- ["PSs14SetAlgebraType", "contains"]
+- ["PSs14SetAlgebraType", "element"]
+- ["PSs14SetAlgebraType", "exclusiveOr"]
+- ["PSs14SetAlgebraType", "exclusiveOrInPlace"]
+- ["PSs14SetAlgebraType", "init"]
+- ["PSs14SetAlgebraType", "insert"]
+- ["PSs14SetAlgebraType", "intersect"]
+- ["PSs14SetAlgebraType", "intersectInPlace"]
+- ["PSs14SetAlgebraType", "isDisjointWith"]
+- ["PSs14SetAlgebraType", "isEmpty"]
+- ["PSs14SetAlgebraType", "isSubsetOf"]
+- ["PSs14SetAlgebraType", "isSupersetOf"]
+- ["PSs14SetAlgebraType", "rawValue"]
+- ["PSs14SetAlgebraType", "remove"]
+- ["PSs14SetAlgebraType", "subtract"]
+- ["PSs14SetAlgebraType", "subtractInPlace"]
+- ["PSs14SetAlgebraType", "union"]
+- ["PSs14SetAlgebraType", "unionInPlace"]
+- ["PSs14SetAlgebraType", ""]
+depends-nominal:
+- "PSs23ArrayLiteralConvertible"
+- "PSs9Equatable"
+- "PSs13GeneratorType"
+- "V10Kingfisher17KingfisherOptions"
+- "PSs13OptionSetType"
+- "PSs16RawRepresentable"
+- "PSs12SequenceType"
+- "PSs14SetAlgebraType"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/david/github/snapshop/snapshop/Pods/Kingfisher/Kingfisher/Kingfisher.h"
+- "/Users/david/github/snapshop/snapshop/Pods/Target Support Files/Kingfisher/Kingfisher-umbrella.h"
+- "/Users/david/github/snapshop/snapshop/DerivedData/snapshop/Build/Intermediates/Pods.build/Debug-iphoneos/Kingfisher.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+interface-hash: "ba269bc2a249055e590082fcb188e645"

@@ -1,0 +1,12 @@
+version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
+options: "72aee0994d96b8732e4d6b013c03d9ac"
+build_time: [506336835, 816471000]
+inputs:
+  "/Users/david/github/snapshop/snapshop/snapshop/CheckoutViewController.swift": [506336832, 0]
+  "/Users/david/github/snapshop/snapshop/snapshop/CartTableViewCell.swift": [506335972, 0]
+  "/Users/david/github/snapshop/snapshop/snapshop/ViewController.swift": [506335972, 0]
+  "/Users/david/github/snapshop/snapshop/snapshop/PageViewController.swift": [506320918, 0]
+  "/Users/david/github/snapshop/snapshop/snapshop/CartViewController.swift": [506335972, 0]
+  "/Users/david/github/snapshop/snapshop/snapshop/Item.swift": [506314523, 0]
+  "/Users/david/github/snapshop/snapshop/snapshop/AppDelegate.swift": [506289013, 0]
+  "/Users/david/github/snapshop/snapshop/snapshop/ShoppingCart.swift": [506335972, 0]

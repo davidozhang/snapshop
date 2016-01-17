@@ -1,0 +1,16 @@
+version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
+options: "846f8c1a2c4b8781efd1e64ee6bdc13d"
+build_time: [506329863, 478502000]
+inputs:
+  "/Users/david/github/snapshop/snapshop/Pods/Kingfisher/Kingfisher/ImageDownloader.swift": [506329841, 0]
+  "/Users/david/github/snapshop/snapshop/Pods/Kingfisher/Kingfisher/ThreadHelper.swift": [506329841, 0]
+  "/Users/david/github/snapshop/snapshop/Pods/Kingfisher/Kingfisher/String+MD5.swift": [506329841, 0]
+  "/Users/david/github/snapshop/snapshop/Pods/Kingfisher/Kingfisher/ImageTransition.swift": [506329841, 0]
+  "/Users/david/github/snapshop/snapshop/Pods/Kingfisher/Kingfisher/UIButton+Kingfisher.swift": [506329841, 0]
+  "/Users/david/github/snapshop/snapshop/Pods/Kingfisher/Kingfisher/KingfisherManager.swift": [506329841, 0]
+  "/Users/david/github/snapshop/snapshop/Pods/Kingfisher/Kingfisher/UIImage+Extension.swift": [506329841, 0]
+  "/Users/david/github/snapshop/snapshop/Pods/Kingfisher/Kingfisher/KingfisherOptions.swift": [506329841, 0]
+  "/Users/david/github/snapshop/snapshop/Pods/Kingfisher/Kingfisher/UIImageView+Kingfisher.swift": [506329841, 0]
+  "/Users/david/github/snapshop/snapshop/Pods/Kingfisher/Kingfisher/KingfisherOptionsInfo.swift": [506329841, 0]
+  "/Users/david/github/snapshop/snapshop/Pods/Kingfisher/Kingfisher/ImageCache.swift": [506329841, 0]
+  "/Users/david/github/snapshop/snapshop/Pods/Kingfisher/Kingfisher/Resource.swift": [506329841, 0]
