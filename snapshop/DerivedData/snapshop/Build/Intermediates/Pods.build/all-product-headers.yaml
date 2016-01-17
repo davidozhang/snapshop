@@ -1,0 +1,649 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/david/github/snapshop/snapshop/DerivedData/snapshop/Build/Products/Debug-iphoneos/Braintree.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "BTAppSwitchErrors.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/API/@Public/BTAppSwitchErrors.h"
+        },
+        {
+          'type': 'file',
+          'name': "BTAppSwitching.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/API/@Public/BTAppSwitching.h"
+        },
+        {
+          'type': 'file',
+          'name': "BTAppSwitchingDelegate.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/API/@Public/BTAppSwitchingDelegate.h"
+        },
+        {
+          'type': 'file',
+          'name': "BTApplePayPaymentMethod.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/API/@Public/BTApplePayPaymentMethod.h"
+        },
+        {
+          'type': 'file',
+          'name': "BTCardPaymentMethod.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/API/@Public/BTCardPaymentMethod.h"
+        },
+        {
+          'type': 'file',
+          'name': "BTClient+BTPayPal.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/PayPal/@Public/BTClient+BTPayPal.h"
+        },
+        {
+          'type': 'file',
+          'name': "BTClient+BTVenmo.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/Venmo/BTClient+BTVenmo.h"
+        },
+        {
+          'type': 'file',
+          'name': "BTClient+Offline.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/API/@Public/BTClient+Offline.h"
+        },
+        {
+          'type': 'file',
+          'name': "BTClient+Testing.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/API/@Public/BTClient+Testing.h"
+        },
+        {
+          'type': 'file',
+          'name': "BTClient.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/API/@Public/BTClient.h"
+        },
+        {
+          'type': 'file',
+          'name': "BTClientCardRequest.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/API/@Public/BTClientCardRequest.h"
+        },
+        {
+          'type': 'file',
+          'name': "BTClientCardTokenizationRequest.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/API/@Public/BTClientCardTokenizationRequest.h"
+        },
+        {
+          'type': 'file',
+          'name': "BTClientToken.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/API/@Public/BTClientToken.h"
+        },
+        {
+          'type': 'file',
+          'name': "BTCoinbase.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/Coinbase/@Public/BTCoinbase.h"
+        },
+        {
+          'type': 'file',
+          'name': "BTCoinbasePaymentMethod.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/API/@Public/BTCoinbasePaymentMethod.h"
+        },
+        {
+          'type': 'file',
+          'name': "BTDropInContentView.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/Drop-In/BTDropInContentView.h"
+        },
+        {
+          'type': 'file',
+          'name': "BTDropInErrorAlert.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/Drop-In/BTDropInErrorAlert.h"
+        },
+        {
+          'type': 'file',
+          'name': "BTDropInErrorState.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/Drop-In/BTDropInErrorState.h"
+        },
+        {
+          'type': 'file',
+          'name': "BTDropInLocalizedString.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/Drop-In/Localization/BTDropInLocalizedString.h"
+        },
+        {
+          'type': 'file',
+          'name': "BTDropInSelectPaymentMethodViewController.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/Drop-In/BTDropInSelectPaymentMethodViewController.h"
+        },
+        {
+          'type': 'file',
+          'name': "BTDropInUtil.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/Drop-In/BTDropInUtil.h"
+        },
+        {
+          'type': 'file',
+          'name': "BTDropInViewController.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/Drop-In/BTDropInViewController.h"
+        },
+        {
+          'type': 'file',
+          'name': "BTErrors+BTPayPal.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/PayPal/@Public/BTErrors+BTPayPal.h"
+        },
+        {
+          'type': 'file',
+          'name': "BTErrors.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/API/@Public/BTErrors.h"
+        },
+        {
+          'type': 'file',
+          'name': "BTLogger.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/API/@Public/BTLogger.h"
+        },
+        {
+          'type': 'file',
+          'name': "BTMockApplePayPaymentAuthorizationView.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/UI/Views/Apple Pay/BTMockApplePayPaymentAuthorizationView.h"
+        },
+        {
+          'type': 'file',
+          'name': "BTMockApplePayPaymentAuthorizationViewController.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/UI/Views/Apple Pay/BTMockApplePayPaymentAuthorizationViewController.h"
+        },
+        {
+          'type': 'file',
+          'name': "BTPayPalButton.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/PayPal/@Public/BTPayPalButton.h"
+        },
+        {
+          'type': 'file',
+          'name': "BTPayPalPaymentMethod.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/API/@Public/BTPayPalPaymentMethod.h"
+        },
+        {
+          'type': 'file',
+          'name': "BTPayPalViewController.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/PayPal/@Public/BTPayPalViewController.h"
+        },
+        {
+          'type': 'file',
+          'name': "BTPaymentButton.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/Drop-In/BTPaymentButton.h"
+        },
+        {
+          'type': 'file',
+          'name': "BTPaymentMethod.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/API/@Public/BTPaymentMethod.h"
+        },
+        {
+          'type': 'file',
+          'name': "BTPaymentMethodCreationDelegate.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/Payments/@Public/BTPaymentMethodCreationDelegate.h"
+        },
+        {
+          'type': 'file',
+          'name': "BTPaymentProvider.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/Payments/@Public/BTPaymentProvider.h"
+        },
+        {
+          'type': 'file',
+          'name': "BTPaymentProviderErrors.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/Payments/@Public/BTPaymentProviderErrors.h"
+        },
+        {
+          'type': 'file',
+          'name': "BTPostalAddress.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/API/@Public/BTPostalAddress.h"
+        },
+        {
+          'type': 'file',
+          'name': "BTUI.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/UI/Theme/BTUI.h"
+        },
+        {
+          'type': 'file',
+          'name': "BTUIAmExVectorArtView.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/UI/Views/Vector Art/BTUIAmExVectorArtView.h"
+        },
+        {
+          'type': 'file',
+          'name': "BTUICTAControl.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/UI/Views/Payments Components/BTUICTAControl.h"
+        },
+        {
+          'type': 'file',
+          'name': "BTUICVVBackVectorArtView.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/UI/Views/Vector Art/BTUICVVBackVectorArtView.h"
+        },
+        {
+          'type': 'file',
+          'name': "BTUICVVFrontVectorArtView.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/UI/Views/Vector Art/BTUICVVFrontVectorArtView.h"
+        },
+        {
+          'type': 'file',
+          'name': "BTUICardCvvField.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/UI/Views/Form Fields/BTUICardCvvField.h"
+        },
+        {
+          'type': 'file',
+          'name': "BTUICardExpirationValidator.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/UI/Models/BTUICardExpirationValidator.h"
+        },
+        {
+          'type': 'file',
+          'name': "BTUICardExpiryField.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/UI/Views/Form Fields/BTUICardExpiryField.h"
+        },
+        {
+          'type': 'file',
+          'name': "BTUICardExpiryFormat.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/UI/Models/BTUICardExpiryFormat.h"
+        },
+        {
+          'type': 'file',
+          'name': "BTUICardFormView.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/UI/Views/Forms/BTUICardFormView.h"
+        },
+        {
+          'type': 'file',
+          'name': "BTUICardHint.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/UI/Views/Payments Components/BTUICardHint.h"
+        },
+        {
+          'type': 'file',
+          'name': "BTUICardNumberField.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/UI/Views/Form Fields/BTUICardNumberField.h"
+        },
+        {
+          'type': 'file',
+          'name': "BTUICardPostalCodeField.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/UI/Views/Form Fields/BTUICardPostalCodeField.h"
+        },
+        {
+          'type': 'file',
+          'name': "BTUICardType.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/UI/Models/BTUICardType.h"
+        },
+        {
+          'type': 'file',
+          'name': "BTUICardVectorArtView.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/UI/Views/Vector Art/BTUICardVectorArtView.h"
+        },
+        {
+          'type': 'file',
+          'name': "BTUICoinbaseButton.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/UI/Views/Payments Components/BTUICoinbaseButton.h"
+        },
+        {
+          'type': 'file',
+          'name': "BTUICoinbaseMonogramCardView.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/UI/Views/Vector Art/BTUICoinbaseMonogramCardView.h"
+        },
+        {
+          'type': 'file',
+          'name': "BTUICoinbaseWordmarkVectorArtView.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/UI/Views/Vector Art/BTUICoinbaseWordmarkVectorArtView.h"
+        },
+        {
+          'type': 'file',
+          'name': "BTUIDinersClubVectorArtView.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/UI/Views/Vector Art/BTUIDinersClubVectorArtView.h"
+        },
+        {
+          'type': 'file',
+          'name': "BTUIDiscoverVectorArtView.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/UI/Views/Vector Art/BTUIDiscoverVectorArtView.h"
+        },
+        {
+          'type': 'file',
+          'name': "BTUIFloatLabel.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/UI/Views/Custom Views/BTUIFloatLabel.h"
+        },
+        {
+          'type': 'file',
+          'name': "BTUIFormField.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/UI/Views/Custom Views/BTUIFormField.h"
+        },
+        {
+          'type': 'file',
+          'name': "BTUIFormField_Protected.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/UI/Views/Custom Views/BTUIFormField_Protected.h"
+        },
+        {
+          'type': 'file',
+          'name': "BTUIHorizontalButtonStackCollectionViewFlowLayout.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/UI/Views/Collection Views/BTUIHorizontalButtonStackCollectionViewFlowLayout.h"
+        },
+        {
+          'type': 'file',
+          'name': "BTUIHorizontalButtonStackSeparatorLineView.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/UI/Views/Collection Views/BTUIHorizontalButtonStackSeparatorLineView.h"
+        },
+        {
+          'type': 'file',
+          'name': "BTUIJCBVectorArtView.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/UI/Views/Vector Art/BTUIJCBVectorArtView.h"
+        },
+        {
+          'type': 'file',
+          'name': "BTUILocalizedString.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/UI/Localization/BTUILocalizedString.h"
+        },
+        {
+          'type': 'file',
+          'name': "BTUIMaestroVectorArtView.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/UI/Views/Vector Art/BTUIMaestroVectorArtView.h"
+        },
+        {
+          'type': 'file',
+          'name': "BTUIMasterCardVectorArtView.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/UI/Views/Vector Art/BTUIMasterCardVectorArtView.h"
+        },
+        {
+          'type': 'file',
+          'name': "BTUIPayPalButton.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/UI/Views/Payments Components/BTUIPayPalButton.h"
+        },
+        {
+          'type': 'file',
+          'name': "BTUIPayPalMonogramCardView.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/UI/Views/Vector Art/BTUIPayPalMonogramCardView.h"
+        },
+        {
+          'type': 'file',
+          'name': "BTUIPayPalWordmarkVectorArtView.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/UI/Views/Vector Art/BTUIPayPalWordmarkVectorArtView.h"
+        },
+        {
+          'type': 'file',
+          'name': "BTUIPaymentButtonCollectionViewCell.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/UI/Views/Collection Views/BTUIPaymentButtonCollectionViewCell.h"
+        },
+        {
+          'type': 'file',
+          'name': "BTUIPaymentMethodType.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/UI/BTUIPaymentMethodType.h"
+        },
+        {
+          'type': 'file',
+          'name': "BTUIPaymentMethodView.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/UI/Views/Payments Components/BTUIPaymentMethodView.h"
+        },
+        {
+          'type': 'file',
+          'name': "BTUIScrollView.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/UI/Views/Custom Views/BTUIScrollView.h"
+        },
+        {
+          'type': 'file',
+          'name': "BTUISummaryView.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/UI/Views/Payments Components/BTUISummaryView.h"
+        },
+        {
+          'type': 'file',
+          'name': "BTUITextField.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/UI/Views/Custom Views/BTUITextField.h"
+        },
+        {
+          'type': 'file',
+          'name': "BTUIThemedView.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/UI/Views/Custom Views/BTUIThemedView.h"
+        },
+        {
+          'type': 'file',
+          'name': "BTUIUnknownCardVectorArtView.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/UI/Views/Vector Art/BTUIUnknownCardVectorArtView.h"
+        },
+        {
+          'type': 'file',
+          'name': "BTUIUtil.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/UI/Models/BTUIUtil.h"
+        },
+        {
+          'type': 'file',
+          'name': "BTUIVectorArtView.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/UI/Views/Custom Views/BTUIVectorArtView.h"
+        },
+        {
+          'type': 'file',
+          'name': "BTUIVenmoButton.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/UI/Views/Payments Components/BTUIVenmoButton.h"
+        },
+        {
+          'type': 'file',
+          'name': "BTUIVenmoWordmarkVectorArtView.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/UI/Views/Vector Art/BTUIVenmoWordmarkVectorArtView.h"
+        },
+        {
+          'type': 'file',
+          'name': "BTUIViewUtil.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/UI/Views/BTUIViewUtil.h"
+        },
+        {
+          'type': 'file',
+          'name': "BTUIVisaVectorArtView.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/UI/Views/Vector Art/BTUIVisaVectorArtView.h"
+        },
+        {
+          'type': 'file',
+          'name': "BTVenmoAppSwitchHandler.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/Venmo/BTVenmoAppSwitchHandler.h"
+        },
+        {
+          'type': 'file',
+          'name': "BTVenmoAppSwitchHandler_Internal.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/Venmo/BTVenmoAppSwitchHandler_Internal.h"
+        },
+        {
+          'type': 'file',
+          'name': "BTVenmoAppSwitchRequestURL.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/Venmo/BTVenmoAppSwitchRequestURL.h"
+        },
+        {
+          'type': 'file',
+          'name': "BTVenmoAppSwitchReturnURL.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/Venmo/BTVenmoAppSwitchReturnURL.h"
+        },
+        {
+          'type': 'file',
+          'name': "Braintree-API.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/API/@Public/Braintree-API.h"
+        },
+        {
+          'type': 'file',
+          'name': "Braintree-Coinbase.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/Coinbase/@Public/Braintree-Coinbase.h"
+        },
+        {
+          'type': 'file',
+          'name': "Braintree-PayPal.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/PayPal/@Public/Braintree-PayPal.h"
+        },
+        {
+          'type': 'file',
+          'name': "Braintree-Payments-UI.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/UI/Braintree-Payments-UI.h"
+        },
+        {
+          'type': 'file',
+          'name': "Braintree-Payments.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/Payments/@Public/Braintree-Payments.h"
+        },
+        {
+          'type': 'file',
+          'name': "Braintree-Swift.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/DerivedData/snapshop/Build/Products/Debug-iphoneos/Braintree.framework/Headers/Braintree-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "Braintree-Version.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/API/@Public/Braintree-Version.h"
+        },
+        {
+          'type': 'file',
+          'name': "Braintree-umbrella.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/Pods/Target Support Files/Braintree/Braintree-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Braintree.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/Braintree.h"
+        },
+        {
+          'type': 'file',
+          'name': "Braintree_Internal.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/Braintree_Internal.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIColor+BTUI.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/UI/Theme/UIColor+BTUI.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/david/github/snapshop/snapshop/DerivedData/snapshop/Build/Products/Debug-iphoneos/Braintree.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/david/github/snapshop/snapshop/DerivedData/snapshop/Build/Intermediates/Pods.build/Debug-iphoneos/Braintree.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/david/github/snapshop/snapshop/DerivedData/snapshop/Build/Products/Debug-iphoneos/CNPPopupController.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "CNPPopupController-Swift.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/DerivedData/snapshop/Build/Products/Debug-iphoneos/CNPPopupController.framework/Headers/CNPPopupController-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "CNPPopupController-umbrella.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/Pods/Target Support Files/CNPPopupController/CNPPopupController-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "CNPPopupController.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/Pods/CNPPopupController/CNPPopupController/CNPPopupController.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/david/github/snapshop/snapshop/DerivedData/snapshop/Build/Products/Debug-iphoneos/CNPPopupController.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/david/github/snapshop/snapshop/DerivedData/snapshop/Build/Intermediates/Pods.build/Debug-iphoneos/CNPPopupController.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/david/github/snapshop/snapshop/DerivedData/snapshop/Build/Products/Debug-iphoneos/Firebase.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "FAuthData.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/Pods/Firebase/FAuthData.h"
+        },
+        {
+          'type': 'file',
+          'name': "FAuthType.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/Pods/Firebase/FAuthType.h"
+        },
+        {
+          'type': 'file',
+          'name': "FConfig.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/Pods/Firebase/FConfig.h"
+        },
+        {
+          'type': 'file',
+          'name': "FDataSnapshot.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/Pods/Firebase/FDataSnapshot.h"
+        },
+        {
+          'type': 'file',
+          'name': "FEventType.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/Pods/Firebase/FEventType.h"
+        },
+        {
+          'type': 'file',
+          'name': "FMutableData.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/Pods/Firebase/FMutableData.h"
+        },
+        {
+          'type': 'file',
+          'name': "FQuery.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/Pods/Firebase/FQuery.h"
+        },
+        {
+          'type': 'file',
+          'name': "FTransactionResult.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/Pods/Firebase/FTransactionResult.h"
+        },
+        {
+          'type': 'file',
+          'name': "Firebase-Swift.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/DerivedData/snapshop/Build/Products/Debug-iphoneos/Firebase.framework/Headers/Firebase-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "Firebase-umbrella.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/Pods/Target Support Files/Firebase/Firebase-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Firebase.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/Pods/Firebase/Firebase.h"
+        },
+        {
+          'type': 'file',
+          'name': "FirebaseApp.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/Pods/Firebase/FirebaseApp.h"
+        },
+        {
+          'type': 'file',
+          'name': "FirebaseServerValue.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/Pods/Firebase/FirebaseServerValue.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/david/github/snapshop/snapshop/DerivedData/snapshop/Build/Products/Debug-iphoneos/Firebase.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/david/github/snapshop/snapshop/DerivedData/snapshop/Build/Intermediates/Pods.build/Debug-iphoneos/Firebase.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/david/github/snapshop/snapshop/DerivedData/snapshop/Build/Products/Debug-iphoneos/Pods.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-Swift.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/DerivedData/snapshop/Build/Products/Debug-iphoneos/Pods.framework/Headers/Pods-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods-umbrella.h",
+          'external-contents': "/Users/david/github/snapshop/snapshop/Pods/Target Support Files/Pods/Pods-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/david/github/snapshop/snapshop/DerivedData/snapshop/Build/Products/Debug-iphoneos/Pods.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/david/github/snapshop/snapshop/DerivedData/snapshop/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

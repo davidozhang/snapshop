@@ -1,0 +1,32 @@
+dependencies: \
+  /Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/PayPal/BTPayPalButton.m \
+  /Users/david/github/snapshop/snapshop/Pods/Target\ Support\ Files/Braintree/Braintree-prefix.pch \
+  /Users/david/github/snapshop/snapshop/Pods/Headers/Private/Braintree/BTPayPalButton.h \
+  /Users/david/github/snapshop/snapshop/Pods/Headers/Private/Braintree/Braintree-API.h \
+  /Users/david/github/snapshop/snapshop/Pods/Headers/Private/Braintree/BTClient.h \
+  /Users/david/github/snapshop/snapshop/Pods/Headers/Private/Braintree/BTCardPaymentMethod.h \
+  /Users/david/github/snapshop/snapshop/Pods/Headers/Private/Braintree/BTPaymentMethod.h \
+  /Users/david/github/snapshop/snapshop/Pods/Headers/Private/Braintree/BTPayPalPaymentMethod.h \
+  /Users/david/github/snapshop/snapshop/Pods/Headers/Private/Braintree/BTPostalAddress.h \
+  /Users/david/github/snapshop/snapshop/Pods/Headers/Private/Braintree/BTApplePayPaymentMethod.h \
+  /Users/david/github/snapshop/snapshop/Pods/Headers/Private/Braintree/BTCoinbasePaymentMethod.h \
+  /Users/david/github/snapshop/snapshop/Pods/Headers/Private/Braintree/BTErrors.h \
+  /Users/david/github/snapshop/snapshop/Pods/Headers/Private/Braintree/BTClientCardRequest.h \
+  /Users/david/github/snapshop/snapshop/Pods/Headers/Private/Braintree/BTClientCardTokenizationRequest.h \
+  /Users/david/github/snapshop/snapshop/Pods/Headers/Private/Braintree/BTLogger.h \
+  /Users/david/github/snapshop/snapshop/Pods/Headers/Private/Braintree/BTAppSwitchErrors.h \
+  /Users/david/github/snapshop/snapshop/Pods/Headers/Private/Braintree/Braintree-Payments-UI.h \
+  /Users/david/github/snapshop/snapshop/Pods/Headers/Private/Braintree/BTUICTAControl.h \
+  /Users/david/github/snapshop/snapshop/Pods/Headers/Private/Braintree/BTUI.h \
+  /Users/david/github/snapshop/snapshop/Pods/Headers/Private/Braintree/BTUIPaymentMethodType.h \
+  /Users/david/github/snapshop/snapshop/Pods/Headers/Private/Braintree/BTUIVectorArtView.h \
+  /Users/david/github/snapshop/snapshop/Pods/Headers/Private/Braintree/BTUISummaryView.h \
+  /Users/david/github/snapshop/snapshop/Pods/Headers/Private/Braintree/BTUIThemedView.h \
+  /Users/david/github/snapshop/snapshop/Pods/Headers/Private/Braintree/BTUICardFormView.h \
+  /Users/david/github/snapshop/snapshop/Pods/Headers/Private/Braintree/BTUIPaymentMethodView.h \
+  /Users/david/github/snapshop/snapshop/Pods/Headers/Private/Braintree/BTUIVenmoButton.h \
+  /Users/david/github/snapshop/snapshop/Pods/Headers/Private/Braintree/BTUIPayPalButton.h \
+  /Users/david/github/snapshop/snapshop/Pods/Headers/Private/Braintree/BTUICoinbaseButton.h \
+  /Users/david/github/snapshop/snapshop/Pods/Headers/Private/Braintree/BTPayPalViewController.h \
+  /Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/PayPal/Views/BTPayPalHorizontalSignatureWhiteView.h \
+  /Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/API/Utility/BTLogger_Internal.h

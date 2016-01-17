@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': '/Users/david/github/snapshop/snapshop/DerivedData/snapshop/Build/Products/Debug-iphoneos/ImageLoader.framework/Modules'
+    'contents': [{
+      'type': 'file',
+      'name': 'module.modulemap',
+      'external-contents': '/Users/david/github/snapshop/snapshop/DerivedData/snapshop/Build/Intermediates/Pods.build/Debug-iphoneos/ImageLoader.build/unextended-module.modulemap',
+    }]
+  }]
+}

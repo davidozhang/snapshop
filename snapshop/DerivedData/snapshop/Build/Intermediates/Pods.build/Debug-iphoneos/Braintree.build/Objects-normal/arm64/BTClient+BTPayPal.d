@@ -1,0 +1,32 @@
+dependencies: \
+  /Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/PayPal/Models/BTClient+BTPayPal.m \
+  /Users/david/github/snapshop/snapshop/Pods/Target\ Support\ Files/Braintree/Braintree-prefix.pch \
+  /Users/david/github/snapshop/snapshop/Pods/Headers/Private/Braintree/BTClient+BTPayPal.h \
+  /Users/david/github/snapshop/snapshop/Pods/Headers/Private/Braintree/BTClient.h \
+  /Users/david/github/snapshop/snapshop/Pods/Headers/Private/Braintree/BTCardPaymentMethod.h \
+  /Users/david/github/snapshop/snapshop/Pods/Headers/Private/Braintree/BTPaymentMethod.h \
+  /Users/david/github/snapshop/snapshop/Pods/Headers/Private/Braintree/BTPayPalPaymentMethod.h \
+  /Users/david/github/snapshop/snapshop/Pods/Headers/Private/Braintree/BTPostalAddress.h \
+  /Users/david/github/snapshop/snapshop/Pods/Headers/Private/Braintree/BTApplePayPaymentMethod.h \
+  /Users/david/github/snapshop/snapshop/Pods/Headers/Private/Braintree/BTCoinbasePaymentMethod.h \
+  /Users/david/github/snapshop/snapshop/Pods/Headers/Private/Braintree/BTErrors.h \
+  /Users/david/github/snapshop/snapshop/Pods/Headers/Private/Braintree/BTClientCardRequest.h \
+  /Users/david/github/snapshop/snapshop/Pods/Headers/Private/Braintree/BTClientCardTokenizationRequest.h \
+  /Users/david/github/snapshop/snapshop/Pods/Headers/Private/Braintree/BTErrors+BTPayPal.h \
+  /Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/PayPal/mSDK/PayPalMobile.h \
+  /Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/PayPal/mSDK/PayPalConfiguration.h \
+  /Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/PayPal/mSDK/PayPalFuturePaymentViewController.h \
+  /Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/PayPal/mSDK/PayPalOAuthScopes.h \
+  /Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/PayPal/mSDK/PayPalPayment.h \
+  /Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/PayPal/mSDK/PayPalPaymentViewController.h \
+  /Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/PayPal/mSDK/PayPalProfileSharingViewController.h \
+  /Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/PayPal/mSDK/PayPalTouch.h \
+  /Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/API/Client/BTClient_Internal.h \
+  /Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/API/Networking/BTHTTP.h \
+  /Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/API/Networking/BTHTTPResponse.h \
+  /Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/API/Client/BTAPIResponseParser.h \
+  /Users/david/github/snapshop/snapshop/Pods/Headers/Private/Braintree/BTClientToken.h \
+  /Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/API/Client/BTConfiguration.h \
+  /Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/API/Client/BTClientMetadata.h \
+  /Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/API/Models/BTThreeDSecureLookupResult.h \
+  /Users/david/github/snapshop/snapshop/Pods/Headers/Private/Braintree/BTClient+Offline.h

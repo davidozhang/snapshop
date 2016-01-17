@@ -1,0 +1,53 @@
+dependencies: \
+  /Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/Braintree.m \
+  /Users/david/github/snapshop/snapshop/Pods/Target\ Support\ Files/Braintree/Braintree-prefix.pch \
+  /Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/Braintree_Internal.h \
+  /Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/Braintree.h \
+  /Users/david/github/snapshop/snapshop/Pods/Headers/Private/Braintree/Braintree-API.h \
+  /Users/david/github/snapshop/snapshop/Pods/Headers/Private/Braintree/BTClient.h \
+  /Users/david/github/snapshop/snapshop/Pods/Headers/Private/Braintree/BTCardPaymentMethod.h \
+  /Users/david/github/snapshop/snapshop/Pods/Headers/Private/Braintree/BTPaymentMethod.h \
+  /Users/david/github/snapshop/snapshop/Pods/Headers/Private/Braintree/BTPayPalPaymentMethod.h \
+  /Users/david/github/snapshop/snapshop/Pods/Headers/Private/Braintree/BTPostalAddress.h \
+  /Users/david/github/snapshop/snapshop/Pods/Headers/Private/Braintree/BTApplePayPaymentMethod.h \
+  /Users/david/github/snapshop/snapshop/Pods/Headers/Private/Braintree/BTCoinbasePaymentMethod.h \
+  /Users/david/github/snapshop/snapshop/Pods/Headers/Private/Braintree/BTErrors.h \
+  /Users/david/github/snapshop/snapshop/Pods/Headers/Private/Braintree/BTClientCardRequest.h \
+  /Users/david/github/snapshop/snapshop/Pods/Headers/Private/Braintree/BTClientCardTokenizationRequest.h \
+  /Users/david/github/snapshop/snapshop/Pods/Headers/Private/Braintree/BTLogger.h \
+  /Users/david/github/snapshop/snapshop/Pods/Headers/Private/Braintree/BTAppSwitchErrors.h \
+  /Users/david/github/snapshop/snapshop/Pods/Headers/Private/Braintree/Braintree-PayPal.h \
+  /Users/david/github/snapshop/snapshop/Pods/Headers/Private/Braintree/BTErrors+BTPayPal.h \
+  /Users/david/github/snapshop/snapshop/Pods/Headers/Private/Braintree/BTPayPalButton.h \
+  /Users/david/github/snapshop/snapshop/Pods/Headers/Private/Braintree/Braintree-Payments-UI.h \
+  /Users/david/github/snapshop/snapshop/Pods/Headers/Private/Braintree/BTUICTAControl.h \
+  /Users/david/github/snapshop/snapshop/Pods/Headers/Private/Braintree/BTUI.h \
+  /Users/david/github/snapshop/snapshop/Pods/Headers/Private/Braintree/BTUIPaymentMethodType.h \
+  /Users/david/github/snapshop/snapshop/Pods/Headers/Private/Braintree/BTUIVectorArtView.h \
+  /Users/david/github/snapshop/snapshop/Pods/Headers/Private/Braintree/BTUISummaryView.h \
+  /Users/david/github/snapshop/snapshop/Pods/Headers/Private/Braintree/BTUIThemedView.h \
+  /Users/david/github/snapshop/snapshop/Pods/Headers/Private/Braintree/BTUICardFormView.h \
+  /Users/david/github/snapshop/snapshop/Pods/Headers/Private/Braintree/BTUIPaymentMethodView.h \
+  /Users/david/github/snapshop/snapshop/Pods/Headers/Private/Braintree/BTUIVenmoButton.h \
+  /Users/david/github/snapshop/snapshop/Pods/Headers/Private/Braintree/BTUIPayPalButton.h \
+  /Users/david/github/snapshop/snapshop/Pods/Headers/Private/Braintree/BTUICoinbaseButton.h \
+  /Users/david/github/snapshop/snapshop/Pods/Headers/Private/Braintree/BTPayPalViewController.h \
+  /Users/david/github/snapshop/snapshop/Pods/Headers/Private/Braintree/BTClient+BTPayPal.h \
+  /Users/david/github/snapshop/snapshop/Pods/Headers/Private/Braintree/Braintree-Payments.h \
+  /Users/david/github/snapshop/snapshop/Pods/Headers/Private/Braintree/BTPaymentProvider.h \
+  /Users/david/github/snapshop/snapshop/Pods/Headers/Private/Braintree/BTPaymentProviderErrors.h \
+  /Users/david/github/snapshop/snapshop/Pods/Headers/Private/Braintree/BTPaymentMethodCreationDelegate.h \
+  /Users/david/github/snapshop/snapshop/Pods/Headers/Private/Braintree/BTDropInViewController.h \
+  /Users/david/github/snapshop/snapshop/Pods/Headers/Private/Braintree/BTPaymentButton.h \
+  /Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/API/Client/BTClient_Internal.h \
+  /Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/API/Networking/BTHTTP.h \
+  /Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/API/Networking/BTHTTPResponse.h \
+  /Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/API/Client/BTAPIResponseParser.h \
+  /Users/david/github/snapshop/snapshop/Pods/Headers/Private/Braintree/BTClientToken.h \
+  /Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/API/Client/BTConfiguration.h \
+  /Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/API/Client/BTClientMetadata.h \
+  /Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/API/Models/BTThreeDSecureLookupResult.h \
+  /Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/API/Utility/BTLogger_Internal.h \
+  /Users/david/github/snapshop/snapshop/Pods/Braintree/Braintree/API/App\ Switch/BTAppSwitch.h \
+  /Users/david/github/snapshop/snapshop/Pods/Headers/Private/Braintree/BTAppSwitching.h \
+  /Users/david/github/snapshop/snapshop/Pods/Headers/Private/Braintree/BTAppSwitchingDelegate.h
